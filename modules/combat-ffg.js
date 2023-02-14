@@ -89,7 +89,7 @@ export class CombatFFG extends Combat {
       }
 
       const title = game.i18n.localize("SWFFG.InitiativeRoll") + ` ${whosInitiative}...`;
-      const content = await renderTemplate("systems/starwarsffg/templates/dialogs/ffg-initiative.html", {
+      const content = await renderTemplate("systems/genemon/templates/dialogs/ffg-initiative.html", {
         id,
         dicePools,
         addDicePool,

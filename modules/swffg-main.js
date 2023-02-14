@@ -125,7 +125,7 @@ Hooks.once("init", async function () {
   };
 
   // Load character templates so that dynamic skills lists work correctly
-  loadTemplates(["systems/starwarsffg/templates/actors/ffg-character-sheet.html", "systems/starwarsffg/templates/actors/ffg-minion-sheet.html"]);
+  loadTemplates(["systems/genemon/templates/actors/ffg-character-sheet.html", "systems/genemon/templates/actors/ffg-minion-sheet.html"]);
 
   SettingsHelpers.initLevelSettings();
 
@@ -134,7 +134,7 @@ Hooks.once("init", async function () {
   switch (uitheme) {
     case "mandar": {
       $('link[href*="styles/starwarsffg.css"]').prop("disabled", true);
-      $("head").append('<link href="systems/starwarsffg/styles/mandar.css" rel="stylesheet" type="text/css" media="all">');
+      $("head").append('<link href="systems/genemon/styles/mandar.css" rel="stylesheet" type="text/css" media="all">');
       break;
     }
     default: {
@@ -729,7 +729,7 @@ Hooks.once("ready", async () => {
   // enable functional testing
   if (game.user.isGM && window.location.href.includes("localhost") && game?.data?.system?.data?.test) {
     const command = `
-      const testing = import('/systems/starwarsffg/tests/ffg-tests.js').then((mod) => {
+      const testing = import('/systems/genemon/tests/ffg-tests.js').then((mod) => {
       const tester = new mod.default();
       tester.render(true);
     });

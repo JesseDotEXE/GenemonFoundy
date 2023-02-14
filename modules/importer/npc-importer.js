@@ -9,7 +9,7 @@ export default class NPCImporter extends FormApplication {
       title: "OggDude NPC Importer",
       width: 385,
       height: 200,
-      template: "systems/starwarsffg/templates/importer/character-importer.html",
+      template: "systems/genemon/templates/importer/character-importer.html",
     });
   }
 

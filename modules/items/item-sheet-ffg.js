@@ -23,7 +23,7 @@ export class ItemSheetFFG extends ItemSheet {
 
   /** @override */
   get template() {
-    const path = "systems/starwarsffg/templates/items";
+    const path = "systems/genemon/templates/items";
     return `${path}/ffg-${this.item.type}-sheet.html`;
   }
 
@@ -456,7 +456,7 @@ export class ItemSheetFFG extends ItemSheet {
           },
           {
             classes: ["dialog", "starwarsffg"],
-            template: `systems/starwarsffg/templates/items/dialogs/ffg-edit-${itemType}.html`,
+            template: `systems/genemon/templates/items/dialogs/ffg-edit-${itemType}.html`,
           }
         ).render(true);
       }

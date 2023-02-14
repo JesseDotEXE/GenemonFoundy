@@ -29,7 +29,7 @@ export class ActorSheetFFG extends ActorSheet {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       classes: ["starwarsffg", "sheet", "actor"],
-      template: "systems/starwarsffg/templates/actors/ffg-character-sheet.html",
+      template: "systems/genemon/templates/actors/ffg-character-sheet.html",
       width: 710,
       height: 650,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "characteristics" }],
@@ -39,7 +39,7 @@ export class ActorSheetFFG extends ActorSheet {
 
   /** @override */
   get template() {
-    const path = "systems/starwarsffg/templates/actors";
+    const path = "systems/genemon/templates/actors";
     return `${path}/ffg-${this.actor.type}-sheet.html`;
   }
 
@@ -63,6 +63,8 @@ export class ActorSheetFFG extends ActorSheet {
     if (options?.action === "update" && this.object.compendium) {
       data.item = mergeObject(data.actor, options.data);
     }
+
+    console.log('Data: ', data);
 
     data.dtypes = ["String", "Number", "Boolean"];
     for (let attr of Object.values(data.data.attributes)) {
@@ -602,7 +604,7 @@ export class ActorSheetFFG extends ActorSheet {
         },
         {
           classes: ["dialog", "starwarsffg"],
-          template: "systems/starwarsffg/templates/actors/dialogs/ffg-talent-selector.html",
+          template: "systems/genemon/templates/actors/dialogs/ffg-talent-selector.html",
         }
       ).render(true);
     });
@@ -825,7 +827,7 @@ export class ActorSheetFFG extends ActorSheet {
     }
 
     const itemDetails = item?.getItemDetails();
-    const template = "systems/starwarsffg/templates/chat/item-card.html";
+    const template = "systems/genemon/templates/chat/item-card.html";
     const html = await renderTemplate(template, { itemDetails, item });
 
     const messageData = {
@@ -855,7 +857,7 @@ export class ActorSheetFFG extends ActorSheet {
     }
 
     const itemDetails = { "desc": desc, "name": name };
-    const template = "systems/starwarsffg/templates/chat/force-power-card.html";
+    const template = "systems/genemon/templates/chat/force-power-card.html";
     const html = await renderTemplate(template, { itemDetails, item });
 
     const messageData = {
@@ -914,7 +916,7 @@ export class ActorSheetFFG extends ActorSheet {
       },
       {
         classes: ["dialog", "starwarsffg"],
-        template: "systems/starwarsffg/templates/actors/dialogs/ffg-skill-characteristic-selector.html",
+        template: "systems/genemon/templates/actors/dialogs/ffg-skill-characteristic-selector.html",
       }
     ).render(true);
   }
@@ -969,7 +971,7 @@ export class ActorSheetFFG extends ActorSheet {
       },
       {
         classes: ["dialog", "starwarsffg"],
-        template: "systems/starwarsffg/templates/actors/dialogs/ffg-skill-new.html",
+        template: "systems/genemon/templates/actors/dialogs/ffg-skill-new.html",
       }
     ).render(true);
   }

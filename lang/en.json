@@ -3,6 +3,7 @@
   "ACTOR.TypeMinion": "Minion",
   "ACTOR.TypeVehicle": "Vehicle",
   "ACTOR.TypeHomestead": "Homestead",
+  "ACTOR.TypePokemon": "Pokemon",
 
   "ITEM.TypeArmour": "Armour",
   "ITEM.TypeCareer": "Career",
@@ -571,4 +572,3 @@
   "SWFFG.OldWorld.CompatLabel": "Enable Old World Compatability",
   "SWFFG.OldWorld.CompatHint": "Enables helpers designed for worlds ported from old versions of the system. May negatively impact the play experience in some cases."
 }
-

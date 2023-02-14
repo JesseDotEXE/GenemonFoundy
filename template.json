@@ -1,6 +1,6 @@
 {
   "Actor": {
-    "types": ["character", "minion", "vehicle", "homestead"],
+    "types": ["character", "minion", "vehicle", "homestead", "pokemon"],
     "templates": {
       "biography": {
         "biography": ""
@@ -541,6 +541,40 @@
         "duration" : "months",
         "type": "Number",
         "label": "SWFFG.Consumables"
+      }
+    },
+    "pokemon": {
+      "templates": ["biography", "species", "career", "specialisation", "stats", "characteristics", "skills", "attributes"],
+      "encumbrance": {
+        "value": 0,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "obligation": {
+        "value": 0,
+        "type": "Number",
+        "label": "Obligation"
+      },
+      "duty": {
+        "value": 0,
+        "type": "Number",
+        "label": "Duty"
+      },
+      "morality": {
+        "value": 0,
+        "type": "Number",
+        "label": "Morality"
+      },
+      "conflict": {
+        "value": 0,
+        "type": "Number",
+        "label": "Conflict"
+      },
+      "experience": {
+        "total": 0,
+        "available": 0
       }
     }
   },

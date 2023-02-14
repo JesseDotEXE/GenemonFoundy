@@ -8,7 +8,7 @@ export default class SWAImporter extends FormApplication {
       id: "swa-importer",
       classes: ["starwarsffg", "data-import"],
       title: "Adversaries Importer",
-      template: "systems/starwarsffg/templates/importer/swa-importer.html",
+      template: "systems/genemon/templates/importer/swa-importer.html",
     });
   }
 

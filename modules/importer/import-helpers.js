@@ -2604,7 +2604,7 @@ export default class ImportHelpers {
   }
 
   static async getTemplate(type) {
-    const response = await fetch("systems/starwarsffg/template.json");
+    const response = await fetch("systems/genemon/template.json");
     const template = await response.json();
 
     const obj = Object.values(template).find((i) => i.types.includes(type));

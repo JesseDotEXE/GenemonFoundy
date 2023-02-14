@@ -57,7 +57,7 @@ export default class ActorOptions {
       },
       {
         classes: ["dialog", "starwarsffg"],
-        template: "systems/starwarsffg/templates/dialogs/ffg-sheet-options.html",
+        template: "systems/genemon/templates/dialogs/ffg-sheet-options.html",
       }
     ).render(true);
   }
