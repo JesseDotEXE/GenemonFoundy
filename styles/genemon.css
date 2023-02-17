@@ -222,39 +222,39 @@ img {
   border: 0;
 }
 
-.starwarsffg .item-form {
+.genemon .item-form {
   font-family: "Roboto", sans-serif;
 }
-.starwarsffg.sheet.actor .tabs {
+.genemon.sheet.actor .tabs {
   height: 15px;
   margin-bottom: 10px;
   border: 0;
   padding: 0;
 }
-.starwarsffg.sheet.actor .tabs .item {
+.genemon.sheet.actor .tabs .item {
   line-height: 15px;
   padding: 0;
 }
-.starwarsffg.sheet.actor .characteristic-item .characteristic-label {
+.genemon.sheet.actor .characteristic-item .characteristic-label {
   background-color: #490c0b;
 }
-.starwarsffg.sheet.actor .characteristic-item .characteristic {
+.genemon.sheet.actor .characteristic-item .characteristic {
   border-radius: 50%;
   border: 5px double black;
 }
-.starwarsffg.sheet.actor .characteristic-item .characteristic .characteristic-value {
+.genemon.sheet.actor .characteristic-item .characteristic .characteristic-value {
   border-radius: 50%;
 }
-.starwarsffg.sheet.actor .characteristic-item .characteristic .characteristic-value input:focus {
+.genemon.sheet.actor .characteristic-item .characteristic .characteristic-value input:focus {
   border-radius: 50%;
 }
-.starwarsffg.sheet.actor.v2 .tabs .item {
+.genemon.sheet.actor.v2 .tabs .item {
   line-height: normal;
 }
-.starwarsffg.sheet.actor.v2 .tabs .item.active {
+.genemon.sheet.actor.v2 .tabs .item.active {
   color: #490c0b;
 }
-.starwarsffg .block-background {
+.genemon .block-background {
   background-color: #ddd;
   padding: 5px;
   margin: 0 0;
@@ -262,7 +262,7 @@ img {
   -webkit-clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
   clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
 }
-.starwarsffg .block-background-shadow {
+.genemon .block-background-shadow {
   position: absolute;
   width: 100%;
   top: 30px;
@@ -274,92 +274,92 @@ img {
   -webkit-clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
   clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
 }
-.starwarsffg.sheet.actor.adversary .character .sheet-body .skillsTablesGrid {
+.genemon.sheet.actor.adversary .character .sheet-body .skillsTablesGrid {
   height: calc(100% - 32.1875rem);
 }
-.starwarsffg.sheet.actor .character .header-fields {
+.genemon.sheet.actor .character .header-fields {
   flex: 1;
   height: auto;
 }
-.starwarsffg.sheet.actor .character .header-fields .block-background-shadow {
+.genemon.sheet.actor .character .header-fields .block-background-shadow {
   top: 36px;
 }
-.starwarsffg.sheet.actor .character .header-fields h1 {
+.genemon.sheet.actor .character .header-fields h1 {
   margin: 0;
   width: 100%;
 }
-.starwarsffg.sheet.actor .character .header-fields .header-name {
+.genemon.sheet.actor .character .header-fields .header-name {
   margin: 0;
   position: relative;
   width: 100%;
 }
-.starwarsffg.sheet.actor .character .header-fields .header-name input {
+.genemon.sheet.actor .character .header-fields .header-name input {
   margin: 0;
   width: 100%;
   border: 0;
   background-color: rgba(0, 0, 0, 0);
 }
-.starwarsffg.sheet.actor .character .header-fields .header-name input:focus {
+.genemon.sheet.actor .character .header-fields .header-name input:focus {
   box-shadow: 0 0 5px #7da9c2;
   background-color: #7da9c2;
 }
-.starwarsffg.sheet.actor .character .header-fields .header-description-block {
+.genemon.sheet.actor .character .header-fields .header-description-block {
   margin-bottom: 5px;
   margin-top: 5px;
 }
-.starwarsffg.sheet.actor .character .header-fields .header-description {
+.genemon.sheet.actor .character .header-fields .header-description {
   background-color: #c4dbe9;
   --notchSize: 10px;
   padding: 3px;
   -webkit-clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
   clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
 }
-.starwarsffg.sheet.actor .character .header-fields .table {
+.genemon.sheet.actor .character .header-fields .table {
   display: table;
   width: 100%;
 }
-.starwarsffg.sheet.actor .character .header-fields .row {
+.genemon.sheet.actor .character .header-fields .row {
   display: table-row;
   width: 100%;
 }
-.starwarsffg.sheet.actor .character .header-fields .row div {
+.genemon.sheet.actor .character .header-fields .row div {
   display: table-cell;
 }
-.starwarsffg.sheet.actor .character .header-fields .row .row-input {
+.genemon.sheet.actor .character .header-fields .row .row-input {
   width: 100%;
   padding: 1px 5px;
 }
-.starwarsffg.sheet.actor .character .header-fields .row .row-input .specialization-pill, .starwarsffg.sheet.actor .character .header-fields .row .row-input .species-pill, .starwarsffg.sheet.actor .character .header-fields .row .row-input .career-pill {
+.genemon.sheet.actor .character .header-fields .row .row-input .specialization-pill, .genemon.sheet.actor .character .header-fields .row .row-input .species-pill, .genemon.sheet.actor .character .header-fields .row .row-input .career-pill {
   padding: 3px 9px;
   background-color: #aaa;
   border: 1px solid black;
   border-radius: 20px;
 }
-.starwarsffg.sheet.actor .character .header-fields .row .row-input .specialization-pill .item-delete, .starwarsffg.sheet.actor .character .header-fields .row .row-input .species-pill .item-delete, .starwarsffg.sheet.actor .character .header-fields .row .row-input .career-pill .item-delete {
+.genemon.sheet.actor .character .header-fields .row .row-input .specialization-pill .item-delete, .genemon.sheet.actor .character .header-fields .row .row-input .species-pill .item-delete, .genemon.sheet.actor .character .header-fields .row .row-input .career-pill .item-delete {
   cursor: pointer;
 }
-.starwarsffg.sheet.actor .character .header-fields .row .row-input .drag-note {
+.genemon.sheet.actor .character .header-fields .row .row-input .drag-note {
   border: 2px dotted;
   border-radius: 10px;
   padding: 0 5px;
 }
-.starwarsffg.sheet.actor .character .header-fields .row input {
+.genemon.sheet.actor .character .header-fields .row input {
   width: 100%;
   border: 0;
   border-bottom: 1px solid black;
   border-radius: 0;
 }
-.starwarsffg.sheet.actor .character .header-fields .row input:focus {
+.genemon.sheet.actor .character .header-fields .row input:focus {
   box-shadow: 0 0 5px #7da9c2;
   background-color: #7da9c2;
 }
-.starwarsffg.sheet.actor .character .header-fields .profile-block {
+.genemon.sheet.actor .character .header-fields .profile-block {
   margin-right: 5px;
   margin-left: 5px;
   height: 130px;
   max-width: 130px;
 }
-.starwarsffg.sheet.actor .character .header-fields .profile-img {
+.genemon.sheet.actor .character .header-fields .profile-img {
   flex: 0 0 100px;
   height: 124px;
   width: auto;
@@ -369,111 +369,111 @@ img {
   -o-object-fit: contain;
   object-fit: contain;
 }
-.starwarsffg.sheet.actor .character .sheet-body {
+.genemon.sheet.actor .character .sheet-body {
   height: calc(100% - 13.75rem);
   overflow: hidden;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .grid, .starwarsffg.sheet.actor .character .sheet-body .obligation .grid {
+.genemon.sheet.actor .character .sheet-body .general .grid, .genemon.sheet.actor .character .sheet-body .obligation .grid {
   margin: 0;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .resource, .starwarsffg.sheet.actor .character .sheet-body .obligation .resource {
+.genemon.sheet.actor .character .sheet-body .general .resource, .genemon.sheet.actor .character .sheet-body .obligation .resource {
   width: 100%;
   line-height: normal;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .resource p, .starwarsffg.sheet.actor .character .sheet-body .obligation .resource p {
+.genemon.sheet.actor .character .sheet-body .general .resource p, .genemon.sheet.actor .character .sheet-body .obligation .resource p {
   padding: 0 0.3125rem;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .resource.full, .starwarsffg.sheet.actor .character .sheet-body .obligation .resource.full {
+.genemon.sheet.actor .character .sheet-body .general .resource.full, .genemon.sheet.actor .character .sheet-body .obligation .resource.full {
   width: 100%;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .resource.full table, .starwarsffg.sheet.actor .character .sheet-body .obligation .resource.full table {
+.genemon.sheet.actor .character .sheet-body .general .resource.full table, .genemon.sheet.actor .character .sheet-body .obligation .resource.full table {
   margin: 0;
   border-bottom: none;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .resource.full table thead, .starwarsffg.sheet.actor .character .sheet-body .obligation .resource.full table thead {
+.genemon.sheet.actor .character .sheet-body .general .resource.full table thead, .genemon.sheet.actor .character .sheet-body .obligation .resource.full table thead {
   background: #919191;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .resource.full table th, .starwarsffg.sheet.actor .character .sheet-body .obligation .resource.full table th {
+.genemon.sheet.actor .character .sheet-body .general .resource.full table th, .genemon.sheet.actor .character .sheet-body .obligation .resource.full table th {
   line-height: 0.875rem;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .resource.full table td, .starwarsffg.sheet.actor .character .sheet-body .obligation .resource.full table td {
+.genemon.sheet.actor .character .sheet-body .general .resource.full table td, .genemon.sheet.actor .character .sheet-body .obligation .resource.full table td {
   vertical-align: top;
   padding: 0.25em 0.3125rem;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .resource.full table .motivation.description, .starwarsffg.sheet.actor .character .sheet-body .obligation .resource.full table .motivation.description {
+.genemon.sheet.actor .character .sheet-body .general .resource.full table .motivation.description, .genemon.sheet.actor .character .sheet-body .obligation .resource.full table .motivation.description {
   width: 66%;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .resource.full table input, .starwarsffg.sheet.actor .character .sheet-body .obligation .resource.full table input {
+.genemon.sheet.actor .character .sheet-body .general .resource.full table input, .genemon.sheet.actor .character .sheet-body .obligation .resource.full table input {
   width: 100%;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .genesys.grid, .starwarsffg.sheet.actor .character .sheet-body .obligation .genesys.grid {
+.genemon.sheet.actor .character .sheet-body .general .genesys.grid, .genemon.sheet.actor .character .sheet-body .obligation .genesys.grid {
   gap: 0px;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .genesys .resource, .starwarsffg.sheet.actor .character .sheet-body .obligation .genesys .resource {
+.genemon.sheet.actor .character .sheet-body .general .genesys .resource, .genemon.sheet.actor .character .sheet-body .obligation .genesys .resource {
   min-height: 6rem;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .genesys .resource .attribute, .starwarsffg.sheet.actor .character .sheet-body .obligation .genesys .resource .attribute {
+.genemon.sheet.actor .character .sheet-body .general .genesys .resource .attribute, .genemon.sheet.actor .character .sheet-body .obligation .genesys .resource .attribute {
   height: 100%;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .genesys .resource .attribute .block-background, .starwarsffg.sheet.actor .character .sheet-body .obligation .genesys .resource .attribute .block-background {
+.genemon.sheet.actor .character .sheet-body .general .genesys .resource .attribute .block-background, .genemon.sheet.actor .character .sheet-body .obligation .genesys .resource .attribute .block-background {
   height: 100%;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .genesys .resource .attribute .block-background .block-attribute, .starwarsffg.sheet.actor .character .sheet-body .obligation .genesys .resource .attribute .block-background .block-attribute {
+.genemon.sheet.actor .character .sheet-body .general .genesys .resource .attribute .block-background .block-attribute, .genemon.sheet.actor .character .sheet-body .obligation .genesys .resource .attribute .block-background .block-attribute {
   height: calc(100% - 0.9375rem);
   overflow: hidden;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .genesys .resource .attribute .block-background .block-attribute .block-value, .starwarsffg.sheet.actor .character .sheet-body .obligation .genesys .resource .attribute .block-background .block-attribute .block-value {
+.genemon.sheet.actor .character .sheet-body .general .genesys .resource .attribute .block-background .block-attribute .block-value, .genemon.sheet.actor .character .sheet-body .obligation .genesys .resource .attribute .block-background .block-attribute .block-value {
   overflow: auto;
   width: 100%;
   height: 100%;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .block-editor .resource, .starwarsffg.sheet.actor .character .sheet-body .obligation .block-editor .resource {
+.genemon.sheet.actor .character .sheet-body .general .block-editor .resource, .genemon.sheet.actor .character .sheet-body .obligation .block-editor .resource {
   min-height: 4.6875rem;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .block-editor .resource .attribute, .starwarsffg.sheet.actor .character .sheet-body .obligation .block-editor .resource .attribute {
+.genemon.sheet.actor .character .sheet-body .general .block-editor .resource .attribute, .genemon.sheet.actor .character .sheet-body .obligation .block-editor .resource .attribute {
   height: 100%;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .block-editor .resource .attribute .block-background, .starwarsffg.sheet.actor .character .sheet-body .obligation .block-editor .resource .attribute .block-background {
+.genemon.sheet.actor .character .sheet-body .general .block-editor .resource .attribute .block-background, .genemon.sheet.actor .character .sheet-body .obligation .block-editor .resource .attribute .block-background {
   height: 100%;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .block-editor .resource .attribute .block-background .block-attribute, .starwarsffg.sheet.actor .character .sheet-body .obligation .block-editor .resource .attribute .block-background .block-attribute {
+.genemon.sheet.actor .character .sheet-body .general .block-editor .resource .attribute .block-background .block-attribute, .genemon.sheet.actor .character .sheet-body .obligation .block-editor .resource .attribute .block-background .block-attribute {
   height: calc(100% - 0.9375rem);
   overflow: hidden;
 }
-.starwarsffg.sheet.actor .character .sheet-body .general .block-editor .resource .attribute .block-background .block-attribute .block-value, .starwarsffg.sheet.actor .character .sheet-body .obligation .block-editor .resource .attribute .block-background .block-attribute .block-value {
+.genemon.sheet.actor .character .sheet-body .general .block-editor .resource .attribute .block-background .block-attribute .block-value, .genemon.sheet.actor .character .sheet-body .obligation .block-editor .resource .attribute .block-background .block-attribute .block-value {
   overflow: auto;
   width: 100%;
   height: 100%;
 }
-.starwarsffg.sheet.actor .character .sheet-body .obligation .resource.full table {
+.genemon.sheet.actor .character .sheet-body .obligation .resource.full table {
   width: 97.4%;
   margin: 0 0 0 0.5rem;
 }
-.starwarsffg.sheet.actor .character .sheet-body .obligation .block-editor .resource {
+.genemon.sheet.actor .character .sheet-body .obligation .block-editor .resource {
   min-height: 4.6875rem;
 }
-.starwarsffg.sheet.actor .character .sheet-body .obligation .block-editor .popout-editor {
+.genemon.sheet.actor .character .sheet-body .obligation .block-editor .popout-editor {
   min-height: 4.6875rem;
 }
-.starwarsffg.sheet.actor .character .sheet-body .tab.items, .starwarsffg.sheet.actor .character .sheet-body .tab.general, .starwarsffg.sheet.actor .character .sheet-body .tab.obligation {
+.genemon.sheet.actor .character .sheet-body .tab.items, .genemon.sheet.actor .character .sheet-body .tab.general, .genemon.sheet.actor .character .sheet-body .tab.obligation {
   height: calc(100% - 2.5rem);
 }
-.starwarsffg.sheet.actor .character .sheet-body .biography {
+.genemon.sheet.actor .character .sheet-body .biography {
   height: calc(100% - 4.6875rem);
   overflow: auto;
 }
-.starwarsffg.sheet.actor .character .sheet-body .characteristics {
+.genemon.sheet.actor .character .sheet-body .characteristics {
   overflow: hidden;
   height: calc(100% + 26.25rem);
 }
-.starwarsffg.sheet.actor .character .sheet-body .skillsTablesGrid {
+.genemon.sheet.actor .character .sheet-body .skillsTablesGrid {
   height: calc(100% - 32.1875rem);
   overflow: auto;
 }
-.starwarsffg.sheet.actor .character .sheet-body table.force-powers {
+.genemon.sheet.actor .character .sheet-body table.force-powers {
   border: 0;
 }
-.starwarsffg.sheet.actor .character .sheet-body table.force-powers th {
+.genemon.sheet.actor .character .sheet-body table.force-powers th {
   text-align: left;
   padding: 3px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
@@ -482,62 +482,62 @@ img {
   font-size: 12px;
   font-weight: normal;
 }
-.starwarsffg.sheet.actor .character .sheet-body table.force-powers td {
+.genemon.sheet.actor .character .sheet-body table.force-powers td {
   height: 30px;
   line-height: 24px;
   padding: 3px;
   position: relative;
 }
-.starwarsffg.sheet.actor .character .sheet-body table.force-powers td .item-controls {
+.genemon.sheet.actor .character .sheet-body table.force-powers td .item-controls {
   text-align: right;
   width: auto;
   z-index: auto;
 }
-.starwarsffg.sheet.actor.v2 .character .sheet-body .skillsTablesGrid {
+.genemon.sheet.actor.v2 .character .sheet-body .skillsTablesGrid {
   height: calc(100% - 31.1875rem);
 }
-.starwarsffg.sheet.actor.v2 .character .sheet-body .tab.items, .starwarsffg.sheet.actor.v2 .character .sheet-body .tab.general, .starwarsffg.sheet.actor.v2 .character .sheet-body .tab.obligation {
+.genemon.sheet.actor.v2 .character .sheet-body .tab.items, .genemon.sheet.actor.v2 .character .sheet-body .tab.general, .genemon.sheet.actor.v2 .character .sheet-body .tab.obligation {
   height: calc(100% - 1rem);
 }
-.starwarsffg.sheet.actor.v2.adversary .character .sheet-body .skillsTablesGrid {
+.genemon.sheet.actor.v2.adversary .character .sheet-body .skillsTablesGrid {
   height: calc(100% - 31.1875rem);
 }
-.starwarsffg.sheet.actor.v2.adversary .character .sheet-body .tab.items, .starwarsffg.sheet.actor.v2.adversary .character .sheet-body .tab.general, .starwarsffg.sheet.actor.v2.adversary .character .sheet-body .tab.obligation {
+.genemon.sheet.actor.v2.adversary .character .sheet-body .tab.items, .genemon.sheet.actor.v2.adversary .character .sheet-body .tab.general, .genemon.sheet.actor.v2.adversary .character .sheet-body .tab.obligation {
   height: calc(100% - 0rem);
 }
-.starwarsffg .container {
+.genemon .container {
   width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
   font-size: 11pt;
 }
-.starwarsffg .container .attributes {
+.genemon .container .attributes {
   margin-top: 5px;
 }
-.starwarsffg .container.flex-group-center {
+.genemon .container.flex-group-center {
   border: 0;
   margin-bottom: 5px;
   padding: 0 5px 5px 5px;
   align-items: flex-start;
 }
-.starwarsffg.sheet.item .popout-editor {
+.genemon.sheet.item .popout-editor {
   height: 50px;
   width: 215px;
 }
-.starwarsffg.sheet.item .tab[data-tab].active {
+.genemon.sheet.item .tab[data-tab].active {
   height: 100%;
 }
-.starwarsffg.sheet.item .tabs {
+.genemon.sheet.item .tabs {
   height: 20px;
   border: 0;
   padding: 0;
 }
-.starwarsffg.sheet.item .tabs .item {
+.genemon.sheet.item .tabs .item {
   line-height: 15px;
   padding: 0;
 }
-.starwarsffg.sheet.item .characteristic .characteristic-value.restricted::after {
+.genemon.sheet.item .characteristic .characteristic-value.restricted::after {
   content: "R";
   position: absolute;
   font-size: 15px;
@@ -545,24 +545,24 @@ img {
   top: -1px;
   color: #8b0000;
 }
-.starwarsffg.sheet .window-content {
+.genemon.sheet .window-content {
   overflow-y: hidden;
 }
-.starwarsffg.sheet .sheet-body {
+.genemon.sheet .sheet-body {
   margin: 10px 5px;
   overflow: auto;
 }
-.starwarsffg.sheet .item-pill-list {
+.genemon.sheet .item-pill-list {
   padding: 0;
 }
-.starwarsffg.sheet .item-pill-list:after {
+.genemon.sheet .item-pill-list:after {
   content: ".";
   display: block;
   height: 0;
   clear: both;
   visibility: hidden;
 }
-.starwarsffg.sheet .item-pill {
+.genemon.sheet .item-pill {
   list-style-type: none;
   padding: 0 5px;
   background-color: #aaa;
@@ -575,51 +575,51 @@ img {
   line-height: 20px;
   white-space: nowrap;
 }
-.starwarsffg.sheet .item-pill.adjusted {
+.genemon.sheet .item-pill.adjusted {
   color: #8b0000;
 }
-.starwarsffg.sheet .item-pill .rank {
+.genemon.sheet .item-pill .rank {
   padding-right: 15px;
 }
-.starwarsffg.sheet .item-pill .rank:hover {
+.genemon.sheet .item-pill .rank:hover {
   color: green;
 }
-.starwarsffg.sheet .item-pill .item-delete {
+.genemon.sheet .item-pill .item-delete {
   cursor: pointer;
 }
-.starwarsffg.sheet .item-pill .item-delete:hover {
+.genemon.sheet .item-pill .item-delete:hover {
   color: red;
 }
-.starwarsffg.sheet .add-new-item {
+.genemon.sheet .add-new-item {
   cursor: pointer;
 }
-.starwarsffg.sheet.item.v2 .sheet-body {
+.genemon.sheet.item.v2 .sheet-body {
   margin: 0px 5px;
 }
-.starwarsffg.sheet.item.v2 .tabs .item {
+.genemon.sheet.item.v2 .tabs .item {
   line-height: normal;
 }
-.starwarsffg.sheet.item.v2 .tabs .item.active {
+.genemon.sheet.item.v2 .tabs .item.active {
   color: #490c0b;
 }
-.starwarsffg .charname {
+.genemon .charname {
   width: 100%;
 }
-.starwarsffg .charname input {
+.genemon .charname input {
   color: black;
   border: 0;
 }
-.starwarsffg .charname input:focus {
+.genemon .charname input:focus {
   box-shadow: 0 0 5px #7da9c2;
   background-color: #7da9c2;
 }
-.starwarsffg .characteristic-item {
+.genemon .characteristic-item {
   border: 0;
   position: relative;
   padding: 0;
   margin: 0 5px;
 }
-.starwarsffg .characteristic-item .characteristic-label {
+.genemon .characteristic-item .characteristic-label {
   margin-top: 5px;
   width: 100%;
   text-align: center;
@@ -631,7 +631,7 @@ img {
   -webkit-clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
   clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
 }
-.starwarsffg .characteristic-item .characteristic {
+.genemon .characteristic-item .characteristic {
   width: 50px;
   height: 50px;
   border-radius: 10px;
@@ -639,43 +639,43 @@ img {
   margin: auto;
   position: relative;
 }
-.starwarsffg .characteristic-item .characteristic .characteristic-value input {
+.genemon .characteristic-item .characteristic .characteristic-value input {
   height: 40px;
   border: 0;
   font-size: 30px;
   text-align: center;
 }
-.starwarsffg .characteristic-item .characteristic .characteristic-value input:focus {
+.genemon .characteristic-item .characteristic .characteristic-value input:focus {
   box-shadow: 0 0 5px #7da9c2;
   background-color: #7da9c2;
   border-radius: 5px;
 }
-.starwarsffg .item-name {
+.genemon .item-name {
   margin: 0;
   padding-bottom: 0;
 }
-.starwarsffg .item-name .restricted {
+.genemon .item-name .restricted {
   color: #8b0000;
 }
-.starwarsffg .item-quantity {
+.genemon .item-quantity {
   position: relative;
 }
-.starwarsffg .grid {
+.genemon .grid {
   margin-top: 0;
 }
-.starwarsffg .attribute {
+.genemon .attribute {
   position: relative;
   padding: 0;
   z-index: 1;
   border: 0;
 }
-.starwarsffg .attribute .block-background-shadow {
+.genemon .attribute .block-background-shadow {
   top: 36px;
 }
-.starwarsffg .attribute .block-background {
+.genemon .attribute .block-background {
   padding: 5px 5px;
 }
-.starwarsffg .attribute .block-title {
+.genemon .attribute .block-title {
   line-height: initial;
   background-color: #553113;
   color: white;
@@ -687,7 +687,7 @@ img {
   -webkit-clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
   clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
 }
-.starwarsffg .attribute .block-header {
+.genemon .attribute .block-header {
   line-height: initial;
   background-color: #490c0b;
   color: white;
@@ -698,42 +698,42 @@ img {
   -webkit-clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
   clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
 }
-.starwarsffg .attribute .block-attribute select:focus {
+.genemon .attribute .block-attribute select:focus {
   box-shadow: 0 0 5px #7da9c2;
   background-color: #7da9c2;
 }
-.starwarsffg .attribute .block-attribute .block-value {
+.genemon .attribute .block-attribute .block-value {
   display: inline-block;
 }
-.starwarsffg .attribute .block-value textarea {
+.genemon .attribute .block-value textarea {
   resize: none;
   font-family: "Roboto";
   border: 0;
 }
-.starwarsffg .attribute .block-value textarea:focus {
+.genemon .attribute .block-value textarea:focus {
   box-shadow: 0 0 5px #7da9c2;
   background-color: #7da9c2;
   outline: none;
 }
-.starwarsffg .attribute .block-value.block-single input {
+.genemon .attribute .block-value.block-single input {
   width: 100%;
 }
-.starwarsffg .attribute .block-value input {
+.genemon .attribute .block-value input {
   border: 0;
   font-size: 14px;
 }
-.starwarsffg .attribute .block-value input:focus {
+.genemon .attribute .block-value input:focus {
   box-shadow: 0 0 5px #7da9c2;
   background-color: #7da9c2;
 }
-.starwarsffg .attribute .shadow-text {
+.genemon .attribute .shadow-text {
   position: absolute;
   top: 5px;
   font-size: 9px;
   left: 50%;
   transform: translateX(-50%);
 }
-.starwarsffg .attribute .shadow-left {
+.genemon .attribute .shadow-left {
   background-color: #490c0b;
   width: 50%;
   height: 100%;
@@ -741,11 +741,11 @@ img {
   position: relative;
   padding-top: 25px;
 }
-.starwarsffg .attribute .shadow-left .shadow-text {
+.genemon .attribute .shadow-left .shadow-text {
   color: white;
   text-transform: uppercase;
 }
-.starwarsffg .attribute .shadow-right {
+.genemon .attribute .shadow-right {
   background-color: #7da9c2;
   width: 50%;
   height: 100%;
@@ -753,12 +753,12 @@ img {
   position: relative;
   padding-top: 25px;
 }
-.starwarsffg .attribute .shadow-right .shadow-text {
+.genemon .attribute .shadow-right .shadow-text {
   color: black;
   font-weight: bold;
   text-transform: uppercase;
 }
-.starwarsffg .resource {
+.genemon .resource {
   line-height: 30px;
   width: 110px;
   height: 40px;
@@ -767,78 +767,78 @@ img {
   margin: 0;
   display: inline-table;
 }
-.starwarsffg .resource.split {
+.genemon .resource.split {
   width: 130px;
 }
-.starwarsffg .resource.single {
+.genemon .resource.single {
   width: 100px;
 }
-.starwarsffg .resource.double {
+.genemon .resource.double {
   width: 235px;
 }
-.starwarsffg .resource input {
+.genemon .resource input {
   width: 45px;
 }
-.starwarsffg .tabs {
+.genemon .tabs {
   flex: 0 0 40px;
   border-top: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
   margin-top: 3px;
 }
-.starwarsffg .tabs .item {
+.genemon .tabs .item {
   line-height: 40px;
   font-weight: bold;
 }
-.starwarsffg .tabs .item.active {
+.genemon .tabs .item.active {
   text-decoration: underline;
   text-shadow: none;
 }
-.starwarsffg .tab {
+.genemon .tab {
   height: 100%;
   overflow: auto;
 }
-.starwarsffg form {
+.genemon form {
   overflow: hidden;
 }
-.starwarsffg .quantity {
+.genemon .quantity {
   position: absolute;
   top: 0;
 }
-.starwarsffg .quantity.increase {
+.genemon .quantity.increase {
   right: 25%;
   cursor: pointer;
 }
-.starwarsffg .quantity.decrease {
+.genemon .quantity.decrease {
   left: 25%;
   cursor: pointer;
 }
-.starwarsffg .talent-body {
+.genemon .talent-body {
   height: 100px;
   overflow: auto;
 }
-.starwarsffg .talent-hidden {
+.genemon .talent-hidden {
   display: none;
 }
-.starwarsffg .talent-grid {
+.genemon .talent-grid {
   display: flex;
   flex-wrap: wrap;
   position: relative;
 }
-.starwarsffg .talent-upgrade {
+.genemon .talent-upgrade {
   position: relative;
   margin: 10px 10px 0 10px;
 }
-.starwarsffg .talent-upgrade .talent-actions {
+.genemon .talent-upgrade .talent-actions {
   display: none;
 }
-.starwarsffg .talent-upgrade .talent-actions .split,
-.starwarsffg .talent-upgrade .talent-actions .combine {
+.genemon .talent-upgrade .talent-actions .split,
+.genemon .talent-upgrade .talent-actions .combine {
   display: none;
 }
-.starwarsffg .talent-upgrade .talent-actions.talent-canSplit {
+.genemon .talent-upgrade .talent-actions.talent-canSplit {
   display: block;
 }
-.starwarsffg .talent-upgrade .talent-actions.talent-canSplit .split {
+.genemon .talent-upgrade .talent-actions.talent-canSplit .split {
   display: initial;
   position: absolute;
   right: 30px;
@@ -847,35 +847,35 @@ img {
   color: white;
   z-index: 20;
 }
-.starwarsffg .talent-upgrade .talent-actions.talent-canSplit .split i {
+.genemon .talent-upgrade .talent-actions.talent-canSplit .split i {
   transform: rotate(45deg);
 }
-.starwarsffg .talent-upgrade .talent-actions.talent-canCombine {
+.genemon .talent-upgrade .talent-actions.talent-canCombine {
   display: block;
 }
-.starwarsffg .talent-upgrade .talent-actions.talent-canCombine .combine {
+.genemon .talent-upgrade .talent-actions.talent-canCombine .combine {
   display: initial;
   position: absolute;
   right: -16px;
   font-size: 15px;
   top: 15px;
 }
-.starwarsffg .talent-upgrade .talent-actions.talent-canCombine .combine i {
+.genemon .talent-upgrade .talent-actions.talent-canCombine .combine i {
   transform: rotate(45deg);
 }
-.starwarsffg .talent-upgrade.talent-single {
+.genemon .talent-upgrade.talent-single {
   flex: 1 0 21%;
 }
-.starwarsffg .talent-upgrade.talent-double {
+.genemon .talent-upgrade.talent-double {
   flex: 1 0 46%;
 }
-.starwarsffg .talent-upgrade.talent-triple {
+.genemon .talent-upgrade.talent-triple {
   flex: 1 0 71%;
 }
-.starwarsffg .talent-upgrade.talent-full {
+.genemon .talent-upgrade.talent-full {
   flex: 1 0 97%;
 }
-.starwarsffg .talent-background {
+.genemon .talent-background {
   position: relative;
   z-index: 10;
   background-color: #ddd;
@@ -884,7 +884,7 @@ img {
   -webkit-clip-path: polygon(0% 0, var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
   clip-path: polygon(0% 0, var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
 }
-.starwarsffg .talent-background .talent-header {
+.genemon .talent-background .talent-header {
   position: relative;
   background-color: #000544;
   padding: 5px;
@@ -892,54 +892,54 @@ img {
   -webkit-clip-path: polygon(0 0, var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, 0 100%, 0% calc(100% - var(--notchSize)));
   clip-path: polygon(0 0, var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, 0 100%, 0% calc(100% - var(--notchSize)));
 }
-.starwarsffg .talent-background .talent-header div {
+.genemon .talent-background .talent-header div {
   display: inline-block;
   vertical-align: middle;
   color: white;
 }
-.starwarsffg .talent-background .talent-header div.talent-name {
+.genemon .talent-background .talent-header div.talent-name {
   width: 75%;
 }
-.starwarsffg .talent-background .talent-header div.talent-name.talent-modifiers {
+.genemon .talent-background .talent-header div.talent-name.talent-modifiers {
   cursor: pointer;
 }
-.starwarsffg .talent-background .talent-header div.talent-name span {
+.genemon .talent-background .talent-header div.talent-name span {
   font-size: 9px;
   float: right;
 }
-.starwarsffg .talent-background .talent-header div input[type=text] {
+.genemon .talent-background .talent-header div input[type=text] {
   border: 0px;
   background-color: #001e82;
   color: white;
 }
-.starwarsffg .talent-background.talent-active .talent-header {
+.genemon .talent-background.talent-active .talent-header {
   background-color: #490c0b;
 }
-.starwarsffg .talent-background.talent-passive .talent-header {
+.genemon .talent-background.talent-passive .talent-header {
   background-color: #464855;
 }
-.starwarsffg .talent-row {
+.genemon .talent-row {
   margin: 10px 0;
 }
-.starwarsffg .talent-row .talent-upgrade {
+.genemon .talent-row .talent-upgrade {
   margin: 0 3px;
 }
-.starwarsffg .talent-connections {
+.genemon .talent-connections {
   font-size: 15px;
 }
-.starwarsffg .talent-single textarea {
+.genemon .talent-single textarea {
   max-width: 145px;
 }
-.starwarsffg .talent-double textarea {
+.genemon .talent-double textarea {
   max-width: 315px;
 }
-.starwarsffg .talent-triple textarea {
+.genemon .talent-triple textarea {
   max-width: 495px;
 }
-.starwarsffg .talent-full textarea {
+.genemon .talent-full textarea {
   max-width: 670px;
 }
-.starwarsffg .talent-connection-point-top {
+.genemon .talent-connection-point-top {
   position: absolute;
   top: -6px;
   left: 50%;
@@ -947,14 +947,14 @@ img {
   width: 100%;
   display: flex;
 }
-.starwarsffg .talent-connection-point-top.talent-single {
+.genemon .talent-connection-point-top.talent-single {
   position: relative;
   text-align: center;
   transform: initial;
   left: initial;
   display: inline-block;
 }
-.starwarsffg .talent-connection-point-top.talent-double {
+.genemon .talent-connection-point-top.talent-double {
   position: relative;
   display: inline-block;
   width: 50%;
@@ -962,7 +962,7 @@ img {
   transform: none;
   text-align: center;
 }
-.starwarsffg .talent-connection-point-top.talent-triple {
+.genemon .talent-connection-point-top.talent-triple {
   position: relative;
   display: inline-block;
   width: 33%;
@@ -970,7 +970,7 @@ img {
   transform: none;
   text-align: center;
 }
-.starwarsffg .talent-connection-point-top.talent-full {
+.genemon .talent-connection-point-top.talent-full {
   position: relative;
   display: inline-block;
   width: 25%;
@@ -978,23 +978,23 @@ img {
   transform: none;
   text-align: center;
 }
-.starwarsffg .talent-connection-point-top .talent-connector-up {
+.genemon .talent-connection-point-top .talent-connector-up {
   display: none;
 }
-.starwarsffg .talent-connection-point-right {
+.genemon .talent-connection-point-right {
   position: absolute;
   right: -15px;
   top: 50%;
   transform: translateY(-50%);
 }
-.starwarsffg .talent-connection-point-right .talent-connector-side {
+.genemon .talent-connection-point-right .talent-connector-side {
   display: none;
 }
-.starwarsffg .talent-connector i {
+.genemon .talent-connector i {
   display: none;
 }
-.starwarsffg .talent-connector .talent-connector-up,
-.starwarsffg .talent-connector .talent-connector-side {
+.genemon .talent-connector .talent-connector-up,
+.genemon .talent-connector .talent-connector-side {
   display: inline-block;
   width: 34px;
   height: 12px;
@@ -1002,166 +1002,166 @@ img {
   position: absolute;
   top: -3px;
 }
-.starwarsffg .talent-connector .talent-connector-up i,
-.starwarsffg .talent-connector .talent-connector-side i {
+.genemon .talent-connector .talent-connector-up i,
+.genemon .talent-connector .talent-connector-side i {
   display: initial;
   color: white;
 }
-.starwarsffg .talent-connector .talent-connector-up {
+.genemon .talent-connector .talent-connector-up {
   height: 100px;
   top: -50px;
   z-index: 5;
 }
-.starwarsffg .talent-connector .talent-connector-up i {
+.genemon .talent-connector .talent-connector-up i {
   position: absolute;
   top: 50%;
   left: 0;
   width: 34px;
 }
-.starwarsffg .talent-connector .talent-connector-side {
+.genemon .talent-connector .talent-connector-side {
   width: 35px;
   height: 35px;
   left: -15px;
   padding-top: 8px;
 }
-.starwarsffg .talent-disable-edit .talent-actions {
+.genemon .talent-disable-edit .talent-actions {
   display: none !important;
 }
-.starwarsffg .talent-disable-edit .talent-connections i {
+.genemon .talent-disable-edit .talent-connections i {
   display: none !important;
 }
-.starwarsffg .talent-action {
+.genemon .talent-action {
   cursor: pointer;
 }
-.starwarsffg .header-fields {
+.genemon .header-fields {
   position: relative;
 }
-.starwarsffg .header-fields .talent-actions {
+.genemon .header-fields .talent-actions {
   position: absolute;
   right: 10px;
   top: 14px;
   color: white;
 }
-.starwarsffg .dice-pool-dialog .dice-pool {
+.genemon .dice-pool-dialog .dice-pool {
   margin-top: 10px;
   min-height: 54px;
   text-align: center;
 }
-.starwarsffg .dice-pool-dialog .pool-value {
+.genemon .dice-pool-dialog .pool-value {
   border: 1px solid black;
   background-color: #ddd;
 }
-.starwarsffg .dice-pool-dialog .pool-value input {
+.genemon .dice-pool-dialog .pool-value input {
   border: 0;
   font-size: 25px;
   text-align: center;
   background: none;
   width: 100%;
 }
-.starwarsffg .dice-pool-dialog .pool-text {
+.genemon .dice-pool-dialog .pool-text {
   text-align: left;
 }
-.starwarsffg .dice-pool-dialog .pool-text label {
+.genemon .dice-pool-dialog .pool-text label {
   margin-left: 1.2em;
 }
-.starwarsffg .dice-pool-dialog .upgrade-buttons {
+.genemon .dice-pool-dialog .upgrade-buttons {
   display: flex;
 }
-.starwarsffg .dice-pool-dialog .upgrade-buttons button {
+.genemon .dice-pool-dialog .upgrade-buttons button {
   line-height: 20px;
   font-size: 12px;
   text-align: left;
 }
-.starwarsffg .dice-pool-dialog .pool-dice-pool {
+.genemon .dice-pool-dialog .pool-dice-pool {
   padding: 5px 1px;
   width: calc(100% - 2px);
 }
-.starwarsffg .dice-pool-dialog .pool-additional-container {
+.genemon .dice-pool-dialog .pool-additional-container {
   padding: 0 1px;
   width: calc(100% - 2px);
   min-width: 300px;
 }
-.starwarsffg .dice-pool-dialog .pool-additional-container .pool-additional {
+.genemon .dice-pool-dialog .pool-additional-container .pool-additional {
   text-align: left;
 }
-.starwarsffg .dice-pool-dialog .pool-additional-container .pool-additional input[type=button] {
+.genemon .dice-pool-dialog .pool-additional-container .pool-additional input[type=button] {
   margin: 0 3px;
 }
-.starwarsffg .dice-pool-dialog .pool-roll-options {
+.genemon .dice-pool-dialog .pool-roll-options {
   margin-top: 10px;
 }
-.starwarsffg .dice-pool-dialog .pool-roll-options select, .starwarsffg .dice-pool-dialog .pool-roll-options input {
+.genemon .dice-pool-dialog .pool-roll-options select, .genemon .dice-pool-dialog .pool-roll-options input {
   margin-top: 1px;
   margin-right: 1px;
 }
-.starwarsffg .dice-pool-dialog .roll-button {
+.genemon .dice-pool-dialog .roll-button {
   margin-top: 15px;
 }
-.starwarsffg .dice-pool-dialog table {
+.genemon .dice-pool-dialog table {
   width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
-.starwarsffg .dice-pool-dialog .hide {
+.genemon .dice-pool-dialog .hide {
   display: none;
 }
-.starwarsffg .dice-pool-dialog .minimize {
+.genemon .dice-pool-dialog .minimize {
   max-width: 20%;
 }
-.starwarsffg .dice-pool-dialog .maximize {
+.genemon .dice-pool-dialog .maximize {
   width: 100%;
 }
-.starwarsffg .ffgDiceArray {
+.genemon .ffgDiceArray {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-.starwarsffg .ffgDiceArray .dice-rolls {
+.genemon .ffgDiceArray .dice-rolls {
   list-style: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-.starwarsffg .ffgDiceArray .dice-rolls .roll {
+.genemon .ffgDiceArray .dice-rolls .roll {
   width: 40px;
   float: left;
 }
-.starwarsffg .dice-result .roll-success {
+.genemon .dice-result .roll-success {
   color: darkgreen;
 }
-.starwarsffg .dice-result .roll-failure {
+.genemon .dice-result .roll-failure {
   color: darkred;
 }
-.starwarsffg .dice-additional-flavor {
+.genemon .dice-additional-flavor {
   font-style: oblique;
   font-size: 12px;
 }
-.starwarsffg .item-display {
+.genemon .item-display {
   margin: 0.5rem 0 0.8rem 0;
   padding: 0.5rem;
   border: 1px solid #782e22;
   background: rgba(255, 255, 255, 0.75);
 }
-.starwarsffg .item-display img {
+.genemon .item-display img {
   height: 50px;
   width: auto;
 }
-.starwarsffg .item-display h4 {
+.genemon .item-display h4 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
 }
-.starwarsffg .item-display h4 input {
+.genemon .item-display h4 input {
   width: 70%;
 }
-.starwarsffg .item-display .item-miss {
+.genemon .item-display .item-miss {
   text-align: center;
   font-style: italic;
   color: darkred;
 }
-.starwarsffg .item-display .item-pill {
+.genemon .item-display .item-pill {
   list-style-type: none;
   padding: 0 5px;
   background-color: #aaa;
@@ -1174,96 +1174,96 @@ img {
   line-height: 20px;
   white-space: nowrap;
 }
-.starwarsffg .item-display .item-pill.adjusted {
+.genemon .item-display .item-pill.adjusted {
   color: #8b0000;
 }
-.starwarsffg .item-display .item-pill .rank {
+.genemon .item-display .item-pill .rank {
   padding-right: 15px;
 }
-.starwarsffg .item-display .item-pill .rank:hover {
+.genemon .item-display .item-pill .rank:hover {
   color: green;
 }
-.starwarsffg .item-display .item-pill .item-delete {
+.genemon .item-display .item-pill .item-delete {
   cursor: pointer;
 }
-.starwarsffg .item-display .item-pill .item-delete:hover {
+.genemon .item-display .item-pill .item-delete:hover {
   color: red;
 }
-.starwarsffg span.dietype {
+.genemon span.dietype {
   position: relative;
 }
-.starwarsffg span.dietype.ability {
+.genemon span.dietype.ability {
   color: green;
 }
-.starwarsffg span.dietype.advantage {
+.genemon span.dietype.advantage {
   color: black;
 }
-.starwarsffg span.dietype.boost {
+.genemon span.dietype.boost {
   color: lightskyblue;
 }
-.starwarsffg span.dietype.challenge {
+.genemon span.dietype.challenge {
   color: red;
 }
-.starwarsffg span.dietype.dark {
+.genemon span.dietype.dark {
   color: black;
 }
-.starwarsffg span.dietype.despair {
+.genemon span.dietype.despair {
   color: black;
 }
-.starwarsffg span.dietype.difficulty {
+.genemon span.dietype.difficulty {
   color: purple;
 }
-.starwarsffg span.dietype.forcepoint {
+.genemon span.dietype.forcepoint {
   color: black;
 }
-.starwarsffg span.dietype.failure {
+.genemon span.dietype.failure {
   color: black;
 }
-.starwarsffg span.dietype.force {
+.genemon span.dietype.force {
   color: black;
 }
-.starwarsffg span.dietype.light {
+.genemon span.dietype.light {
   color: black;
 }
-.starwarsffg span.dietype.proficiency {
+.genemon span.dietype.proficiency {
   color: yellow;
 }
-.starwarsffg span.dietype.remsetback {
+.genemon span.dietype.remsetback {
   color: black;
 }
-.starwarsffg span.dietype.remsetback::after {
+.genemon span.dietype.remsetback::after {
   content: "-";
   color: white;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
-.starwarsffg span.dietype.restricted {
+.genemon span.dietype.restricted {
   color: #8b0000;
 }
-.starwarsffg span.dietype.restricted::after {
+.genemon span.dietype.restricted::after {
   content: "-";
   color: white;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
-.starwarsffg span.dietype.setback {
+.genemon span.dietype.setback {
   color: black;
 }
-.starwarsffg span.dietype.success {
+.genemon span.dietype.success {
   color: black;
 }
-.starwarsffg span.dietype.threat {
+.genemon span.dietype.threat {
   color: black;
 }
-.starwarsffg span.dietype.triumph {
+.genemon span.dietype.triumph {
   color: black;
 }
-.starwarsffg span.dietype.adddifficulty {
+.genemon span.dietype.adddifficulty {
   color: purple;
 }
-.starwarsffg span.dietype.adddifficulty::after {
+.genemon span.dietype.adddifficulty::after {
   content: "+";
   color: white;
   position: absolute;
@@ -1271,10 +1271,10 @@ img {
   top: 5%;
   transform: translateX(-50%);
 }
-.starwarsffg span.dietype.updifficulty {
+.genemon span.dietype.updifficulty {
   color: purple;
 }
-.starwarsffg span.dietype.updifficulty::after {
+.genemon span.dietype.updifficulty::after {
   content: "↑";
   color: white;
   position: absolute;
@@ -1282,10 +1282,10 @@ img {
   top: 5%;
   transform: translateX(-50%);
 }
-.starwarsffg span.dietype.cancelthreat {
+.genemon span.dietype.cancelthreat {
   color: black;
 }
-.starwarsffg span.dietype.cancelthreat::after {
+.genemon span.dietype.cancelthreat::after {
   content: "✖";
   color: red;
   position: absolute;
@@ -1293,13 +1293,13 @@ img {
   top: 5%;
   transform: translateX(-50%);
 }
-.starwarsffg span.bold {
+.genemon span.bold {
   font-weight: bold;
 }
-.starwarsffg span.italic {
+.genemon span.italic {
   font-style: italic;
 }
-.starwarsffg .popout-editor {
+.genemon .popout-editor {
   text-align: left;
   font-size: 12px;
   overflow: auto;
@@ -1308,37 +1308,37 @@ img {
   min-height: 2rem;
   position: relative;
 }
-.starwarsffg .popout-editor p {
+.genemon .popout-editor p {
   line-height: 0.875rem;
 }
-.starwarsffg .popout-editor .popout-editor-button {
+.genemon .popout-editor .popout-editor-button {
   display: none;
   position: absolute;
   right: 0;
   top: 0;
   cursor: pointer;
 }
-.starwarsffg .popout-editor-window .sheet-body {
+.genemon .popout-editor-window .sheet-body {
   height: 100%;
 }
-.starwarsffg .popout-editor-window .editor {
+.genemon .popout-editor-window .editor {
   width: 100%;
   height: 100%;
 }
-.starwarsffg .editor {
+.genemon .editor {
   width: 100%;
   height: 100%;
   min-height: 2rem;
 }
-.starwarsffg .tox.tox-tinymce {
+.genemon .tox.tox-tinymce {
   height: 100% !important;
 }
-.starwarsffg .tabs {
+.genemon .tabs {
   height: 40px;
   border-top: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
 }
-.starwarsffg .tabs .item {
+.genemon .tabs .item {
   line-height: 15px;
   font-weight: bold;
   background-color: #aaa;
@@ -1349,88 +1349,88 @@ img {
   -webkit-clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
   clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
 }
-.starwarsffg .tabs .item:hover {
+.genemon .tabs .item:hover {
   text-shadow: 0 0 8px white;
 }
-.starwarsffg .tabs .item.active {
+.genemon .tabs .item.active {
   text-decoration: underline;
   text-shadow: none;
   background-color: #490c0b;
   color: white;
   font-weight: normal;
 }
-.starwarsffg.v2 .tabs {
+.genemon.v2 .tabs {
   position: absolute;
   width: 40px;
   right: -20px;
   top: 160px;
   flex-direction: column;
 }
-.starwarsffg.v2 .tabs .item {
+.genemon.v2 .tabs .item {
   line-height: 35px;
   font-size: 16pt;
   margin: 5px 5px;
   background-color: #cccccc;
 }
-.starwarsffg.v2 .tabs .item.active {
+.genemon.v2 .tabs .item.active {
   background: #cccccc;
   background: linear-gradient(to right, #cccccc 0%, #7da9c2 100%);
   margin-right: -10px;
 }
-.starwarsffg .skill-characteristic {
+.genemon .skill-characteristic {
   display: inline;
 }
-.starwarsffg .skill-characteristic-select-dialog {
+.genemon .skill-characteristic-select-dialog {
   display: inline-block;
   margin: auto;
 }
-.starwarsffg .skill-characteristic-select-dialog li {
+.genemon .skill-characteristic-select-dialog li {
   list-style: none;
 }
-.starwarsffg .skill-create-dialog {
+.genemon .skill-create-dialog {
   display: inline-flex;
   margin: auto;
 }
-.starwarsffg .tableWithHeader {
+.genemon .tableWithHeader {
   overflow-y: auto;
   margin: 0;
   height: calc(100% - 5rem);
   display: flex;
 }
-.starwarsffg .tableWithHeader .tableWithHeader-container {
+.genemon .tableWithHeader .tableWithHeader-container {
   flex: 1;
   margin: 2px;
   position: relative;
 }
-.starwarsffg .skillsTablesGrid {
+.genemon .skillsTablesGrid {
   position: relative;
   overflow: auto;
   height: calc(100% - 5.5rem);
   float: left;
   width: 100%;
 }
-.starwarsffg .skillsGrid {
+.genemon .skillsGrid {
   display: flex;
   align-content: flex-start;
   width: 100%;
   padding: 0 5px;
 }
-.starwarsffg .skillsGrid .skillTypeGrid {
+.genemon .skillsGrid .skillTypeGrid {
   flex: 0 1 auto;
   flex-direction: column;
 }
-.starwarsffg .skillsGrid .skillTypeGrid.skillColumnGrid {
+.genemon .skillsGrid .skillTypeGrid.skillColumnGrid {
   border: 1px solid #7a7971;
   background: rgba(0, 0, 0, 0.05);
   flex: 50%;
 }
-.starwarsffg .skillsGrid .pure-g {
+.genemon .skillsGrid .pure-g {
   letter-spacing: initial;
 }
-.starwarsffg .skillsGrid .skillTable .skillsHeader {
+.genemon .skillsGrid .skillTable .skillsHeader {
   line-height: 1.313rem;
 }
-.starwarsffg .skillsGrid .skillTable .skillsHeader div {
+.genemon .skillsGrid .skillTable .skillsHeader div {
   text-align: center;
   padding: 3px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
@@ -1439,48 +1439,48 @@ img {
   font-size: 12px;
   font-weight: normal;
 }
-.starwarsffg .skillsGrid .skillTable .skillsHeader div:first-of-type {
+.genemon .skillsGrid .skillTable .skillsHeader div:first-of-type {
   text-align: left;
 }
-.starwarsffg .skillsGrid .skillTable div.skill {
+.genemon .skillsGrid .skillTable div.skill {
   position: relative;
 }
-.starwarsffg .skillsGrid .skillTable div.skill > div {
+.genemon .skillsGrid .skillTable div.skill > div {
   text-align: center;
 }
-.starwarsffg .skillsGrid .skillTable div.skill > div:first-of-type {
+.genemon .skillsGrid .skillTable div.skill > div:first-of-type {
   text-align: left;
   padding-left: 3px;
   padding-top: 7px;
 }
-.starwarsffg .skillsGrid .skillTable div.skill input[type=checkbox] {
+.genemon .skillsGrid .skillTable div.skill input[type=checkbox] {
   width: 20px;
   height: 20px;
   margin: 2px 5px;
 }
-.starwarsffg .skillsGrid .skillTable .careerskill-toggle {
+.genemon .skillsGrid .skillTable .careerskill-toggle {
   margin: 0;
   padding: 0;
 }
-.starwarsffg .skillsGrid .skillTable .careerskill-rank {
+.genemon .skillsGrid .skillTable .careerskill-rank {
   margin-top: 2px;
   width: 30px;
   text-align: center;
 }
-.starwarsffg .skillsGrid .dice-pool {
+.genemon .skillsGrid .dice-pool {
   margin: 0.5em 0;
 }
-.starwarsffg .skillsGrid .dice-pool img {
+.genemon .skillsGrid .dice-pool img {
   width: 1em;
   height: 1em;
   border: 0;
 }
-.starwarsffg .items {
+.genemon .items {
   margin: 0;
   padding: 0;
   border: 0;
 }
-.starwarsffg .items .items-header {
+.genemon .items .items-header {
   text-align: center;
   padding: 3px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
@@ -1489,69 +1489,69 @@ img {
   font-size: 12px;
   font-weight: normal;
 }
-.starwarsffg .items .items-header .header-name {
+.genemon .items .items-header .header-name {
   flex: 1 0 120px;
   text-align: left;
 }
-.starwarsffg .items li {
+.genemon .items li {
   padding: 3px;
 }
-.starwarsffg .items .item-values {
+.genemon .items .item-values {
   margin-bottom: 10px;
   border: 0;
 }
-.starwarsffg .items .items-list {
+.genemon .items .items-list {
   padding: 0;
 }
-.starwarsffg .items .items-list .item {
+.genemon .items .items-list .item {
   line-height: 24px;
   padding: 3px 0;
   border-bottom: 1px solid #bbb;
   text-align: center;
 }
-.starwarsffg .items .items-list .item:hover {
+.genemon .items .items-list .item:hover {
   background: rgba(25, 24, 19, 0.12);
 }
-.starwarsffg .items .items-list .item img {
+.genemon .items .items-list .item img {
   flex: 0 0 24px;
   margin-right: 5px;
 }
-.starwarsffg .items .items-list .item .toggle-equipped {
+.genemon .items .items-list .item .toggle-equipped {
   color: #888;
 }
-.starwarsffg .items .items-list .item .toggle-equipped.active {
+.genemon .items .items-list .item .toggle-equipped.active {
   color: #191813;
 }
-.starwarsffg .items .items-list .force-power {
+.genemon .items .items-list .force-power {
   line-height: 24px;
   padding: 3px 0;
   border-bottom: 1px solid #bbb;
   text-align: center;
 }
-.starwarsffg .items .items-list .force-power:hover {
+.genemon .items .items-list .force-power:hover {
   background: rgba(25, 24, 19, 0.12);
 }
-.starwarsffg .items .items-list .force-power img {
+.genemon .items .items-list .force-power img {
   flex: 0 0 24px;
   margin-right: 5px;
 }
-.starwarsffg .items .items-list .item-name {
+.genemon .items .items-list .item-name {
   margin: 0;
   cursor: pointer;
   flex: 1 0 120px;
   text-align: left;
   display: flex;
 }
-.starwarsffg .items .items-list .item-controls {
+.genemon .items .items-list .item-controls {
   z-index: 500;
   width: 20px;
   text-align: end;
   margin: auto;
 }
-.starwarsffg .items .items-list .item-controls .item-control {
+.genemon .items .items-list .item-controls .item-control {
   padding: 5px;
 }
-.starwarsffg .item-details {
+.genemon .item-details {
   flex: 0 0 100%;
   text-align: left;
   line-height: 16px;
@@ -1560,14 +1560,14 @@ img {
   border: 1px groove rgba(0, 0, 0, 0.2);
   grid-area: inherit;
 }
-.starwarsffg .item-details .item-properties {
+.genemon .item-details .item-properties {
   position: relative;
   flex: 0 0 120px;
   margin: 5px 5px 5px 0;
   padding-right: 5px;
   font-weight: bold;
 }
-.starwarsffg .item-details .item-properties .tag {
+.genemon .item-details .item-properties .tag {
   display: inline-block;
   margin: 0 2px 0 0;
   padding: 0 3px;
@@ -1577,10 +1577,10 @@ img {
   border-radius: 3px;
   background: rgba(0, 0, 0, 0.1);
 }
-.starwarsffg .item-details .restricted {
+.genemon .item-details .restricted {
   color: #8b0000;
 }
-.starwarsffg .item-rollable {
+.genemon .item-rollable {
   height: 24px;
   width: 48px;
   background-size: contain;
@@ -1589,13 +1589,13 @@ img {
   margin-right: 5px;
   border: none;
 }
-.starwarsffg .item-rollable.rollable:hover {
-  background-image: url(/systems/starwarsffg/images/generic-die.svg) !important;
+.genemon .item-rollable.rollable:hover {
+  background-image: url(/systems/genemon/images/generic-die.svg) !important;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
-.starwarsffg.item-card .item-details .item-properties .item-pill {
+.genemon.item-card .item-details .item-properties .item-pill {
   list-style-type: none;
   padding: 0 5px;
   background-color: #aaa;
@@ -1608,21 +1608,21 @@ img {
   line-height: 20px;
   white-space: nowrap;
 }
-.starwarsffg.item-card .item-details .item-properties .item-pill.adjusted {
+.genemon.item-card .item-details .item-properties .item-pill.adjusted {
   color: #8b0000;
 }
-.starwarsffg .talents {
+.genemon .talents {
   margin: 0;
 }
-.starwarsffg .talent-list {
+.genemon .talent-list {
   border: 0;
   padding: 0;
   margin: 1em 0 0 0;
 }
-.starwarsffg .talent-list .item:hover {
+.genemon .talent-list .item:hover {
   background: rgba(25, 24, 19, 0.12);
 }
-.starwarsffg .talent-list .talents-header {
+.genemon .talent-list .talents-header {
   text-align: center;
   padding: 3px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
@@ -1631,23 +1631,23 @@ img {
   font-size: 12px;
   font-weight: normal;
 }
-.starwarsffg .talent-list .talents-header .header-name {
+.genemon .talent-list .talents-header .header-name {
   flex: 1 0 120px;
   text-align: left;
 }
-.starwarsffg .talent-list .force-powers {
+.genemon .talent-list .force-powers {
   flex: 1 0 150px;
 }
-.starwarsffg .talent-list .item-controls {
+.genemon .talent-list .item-controls {
   z-index: 500;
   width: 20px;
   text-align: end;
   margin: auto;
 }
-.starwarsffg .talent-list .item-controls .item-control {
+.genemon .talent-list .item-controls .item-control {
   padding: 5px;
 }
-.starwarsffg .biography .biography-values {
+.genemon .biography .biography-values {
   margin-bottom: 5px;
   border: 0;
   position: absolute;
@@ -1655,199 +1655,199 @@ img {
   left: 0;
   padding: 0;
 }
-.starwarsffg .biography .biography-editor {
+.genemon .biography .biography-editor {
   height: 85%;
 }
-.starwarsffg .biography .bio-grid {
+.genemon .biography .bio-grid {
   grid-column: span 5/span 5;
   grid-template-columns: auto auto auto auto auto;
 }
-.starwarsffg .item-sheet-weapon .charname input {
+.genemon .item-sheet-weapon .charname input {
   color: #134103;
 }
-.starwarsffg .item-sheet-weapon .characteristic-item .characteristic-label {
+.genemon .item-sheet-weapon .characteristic-item .characteristic-label {
   background-color: #134103;
 }
-.starwarsffg .item-sheet-weapon .characteristic-item .characteristic {
+.genemon .item-sheet-weapon .characteristic-item .characteristic {
   border: 5px double #134103;
 }
-.starwarsffg .item-sheet-weapon .characteristic-item .characteristic .adjustedvalues-left {
+.genemon .item-sheet-weapon .characteristic-item .characteristic .adjustedvalues-left {
   position: absolute;
   top: 0;
   right: 2px;
   color: red;
 }
-.starwarsffg .item-sheet-weapon .characteristic-item .characteristic .adjustedvalues-left.positive {
+.genemon .item-sheet-weapon .characteristic-item .characteristic .adjustedvalues-left.positive {
   color: green;
 }
-.starwarsffg .item-sheet-weapon .adjustedvalue {
+.genemon .item-sheet-weapon .adjustedvalue {
   color: red;
 }
-.starwarsffg .item-sheet-weapon .block-background {
+.genemon .item-sheet-weapon .block-background {
   background-color: #bffebf;
 }
-.starwarsffg .item-sheet-weapon .attribute .block-title {
+.genemon .item-sheet-weapon .attribute .block-title {
   background-color: #134103;
 }
-.starwarsffg .item-sheet-weapon .sheet-body {
+.genemon .item-sheet-weapon .sheet-body {
   height: calc(100% - 27.5rem);
 }
-.starwarsffg .item-sheet-weapon .pills.itemmodifier, .starwarsffg .item-sheet-weapon .pills.itemattachment {
+.genemon .item-sheet-weapon .pills.itemmodifier, .genemon .item-sheet-weapon .pills.itemattachment {
   width: auto;
   max-width: 50%;
   width: 50%;
 }
-.starwarsffg .item-sheet-weapon .pills.itemmodifier .item-pill-list, .starwarsffg .item-sheet-weapon .pills.itemattachment .item-pill-list {
+.genemon .item-sheet-weapon .pills.itemmodifier .item-pill-list, .genemon .item-sheet-weapon .pills.itemattachment .item-pill-list {
   max-height: 75px;
   height: 75px;
   overflow-y: scroll;
   overflow-x: hidden;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-weapon .container.flex-group-center {
+.genemon.sheet.item.v2 .item-sheet-weapon .container.flex-group-center {
   padding: 0 5px 0 5px;
   margin-bottom: 0;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-weapon .weapon-values {
+.genemon.sheet.item.v2 .item-sheet-weapon .weapon-values {
   margin: 0 5px;
   padding: 0 5px 0 5px;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-weapon .sheet-body {
+.genemon.sheet.item.v2 .item-sheet-weapon .sheet-body {
   height: calc(100% - 26.6125rem);
 }
-.starwarsffg .item-sheet-armor .charname input {
+.genemon .item-sheet-armor .charname input {
   color: #553113;
 }
-.starwarsffg .item-sheet-armor .characteristic-item .characteristic-label {
+.genemon .item-sheet-armor .characteristic-item .characteristic-label {
   background-color: #553113;
 }
-.starwarsffg .item-sheet-armor .characteristic-item .characteristic {
+.genemon .item-sheet-armor .characteristic-item .characteristic {
   border: 5px double #553113;
 }
-.starwarsffg .item-sheet-armor .characteristic-item .characteristic .adjustedvalues-left {
+.genemon .item-sheet-armor .characteristic-item .characteristic .adjustedvalues-left {
   position: absolute;
   top: 0;
   right: 2px;
   color: red;
 }
-.starwarsffg .item-sheet-armor .characteristic-item .characteristic .adjustedvalues-left.positive {
+.genemon .item-sheet-armor .characteristic-item .characteristic .adjustedvalues-left.positive {
   color: green;
 }
-.starwarsffg .item-sheet-armor .adjustedvalue {
+.genemon .item-sheet-armor .adjustedvalue {
   color: red;
 }
-.starwarsffg .item-sheet-armor .block-background {
+.genemon .item-sheet-armor .block-background {
   background-color: #e9c09e;
 }
-.starwarsffg .item-sheet-armor .attribute .block-title {
+.genemon .item-sheet-armor .attribute .block-title {
   background-color: #553113;
 }
-.starwarsffg .item-sheet-armor .sheet-body {
+.genemon .item-sheet-armor .sheet-body {
   height: calc(100% - 21.3125rem);
 }
-.starwarsffg .item-sheet-armor .pills.itemmodifier, .starwarsffg .item-sheet-armor .pills.itemattachment {
+.genemon .item-sheet-armor .pills.itemmodifier, .genemon .item-sheet-armor .pills.itemattachment {
   width: auto;
   max-width: 50%;
   width: 50%;
 }
-.starwarsffg .item-sheet-armor .pills.itemmodifier .item-pill-list, .starwarsffg .item-sheet-armor .pills.itemattachment .item-pill-list {
+.genemon .item-sheet-armor .pills.itemmodifier .item-pill-list, .genemon .item-sheet-armor .pills.itemattachment .item-pill-list {
   max-height: 75px;
   height: 75px;
   overflow-y: scroll;
   overflow-x: hidden;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-armor .container.flex-group-center {
+.genemon.sheet.item.v2 .item-sheet-armor .container.flex-group-center {
   padding: 0 5px 0 5px;
   margin-bottom: 0;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-armor .weapon-values {
+.genemon.sheet.item.v2 .item-sheet-armor .weapon-values {
   margin: 0 5px;
   padding: 0 5px 0 5px;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-armor .sheet-body {
+.genemon.sheet.item.v2 .item-sheet-armor .sheet-body {
   height: calc(100% - 17.3125rem);
 }
-.starwarsffg .item-sheet-gear .charname input {
+.genemon .item-sheet-gear .charname input {
   color: #2c0344;
 }
-.starwarsffg .item-sheet-gear .characteristic-item .characteristic-label {
+.genemon .item-sheet-gear .characteristic-item .characteristic-label {
   background-color: #2c0344;
 }
-.starwarsffg .item-sheet-gear .characteristic-item .characteristic {
+.genemon .item-sheet-gear .characteristic-item .characteristic {
   border: 5px double #2c0344;
 }
-.starwarsffg .item-sheet-gear .block-background {
+.genemon .item-sheet-gear .block-background {
   background-color: #e9c6fd;
 }
-.starwarsffg .item-sheet-gear .attribute .block-title {
+.genemon .item-sheet-gear .attribute .block-title {
   background-color: #2c0344;
 }
-.starwarsffg .item-sheet-gear .sheet-body {
+.genemon .item-sheet-gear .sheet-body {
   height: calc(100% - 21.3125rem);
   overflow: auto;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-gear .container.flex-group-center {
+.genemon.sheet.item.v2 .item-sheet-gear .container.flex-group-center {
   padding: 0 5px 0 5px;
   margin-bottom: 0;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-gear .weapon-values {
+.genemon.sheet.item.v2 .item-sheet-gear .weapon-values {
   margin: 0 5px;
   padding: 0 5px 0 5px;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-gear .sheet-body {
+.genemon.sheet.item.v2 .item-sheet-gear .sheet-body {
   height: calc(100% - 17.3125rem);
 }
-.starwarsffg .item-sheet-talent .charname input {
+.genemon .item-sheet-talent .charname input {
   color: #821517;
 }
-.starwarsffg .item-sheet-talent .characteristic-item .characteristic-label {
+.genemon .item-sheet-talent .characteristic-item .characteristic-label {
   background-color: #821517;
 }
-.starwarsffg .item-sheet-talent .characteristic-item .characteristic {
+.genemon .item-sheet-talent .characteristic-item .characteristic {
   border: 5px double #821517;
 }
-.starwarsffg .item-sheet-talent .block-background {
+.genemon .item-sheet-talent .block-background {
   background-color: #f2ebde;
 }
-.starwarsffg .item-sheet-talent .attribute .block-title {
+.genemon .item-sheet-talent .attribute .block-title {
   background-color: #821517;
 }
-.starwarsffg .item-sheet-talent .sheet-body {
+.genemon .item-sheet-talent .sheet-body {
   height: calc(100% - 20.3125rem);
 }
-.starwarsffg.sheet.item.v2 .item-sheet-talent .sheet-body {
+.genemon.sheet.item.v2 .item-sheet-talent .sheet-body {
   height: calc(100% - 19.3125rem);
 }
-.starwarsffg .minion {
+.genemon .minion {
   flex: auto;
 }
-.starwarsffg .minion .minion-name {
+.genemon .minion .minion-name {
   flex: 1;
   flex-wrap: wrap;
 }
-.starwarsffg .minion .minion-name input {
+.genemon .minion .minion-name input {
   border: 0;
 }
-.starwarsffg .minion .minion-name input:focus {
+.genemon .minion .minion-name input:focus {
   box-shadow: 0 0 5px #7da9c2;
   background-color: #7da9c2;
 }
-.starwarsffg .minion .minion-stats {
+.genemon .minion .minion-stats {
   width: 100%;
   margin: 0 0 1em;
 }
-.starwarsffg .minion table.items {
+.genemon .minion table.items {
   margin: 1em 0;
 }
-.starwarsffg .minion .biography-editor {
+.genemon .minion .biography-editor {
   height: 100%;
 }
-.starwarsffg .minion .profile-block {
+.genemon .minion .profile-block {
   margin-right: 5px;
   margin-left: 5px;
   height: 130px;
   max-width: 130px;
 }
-.starwarsffg .minion .profile-img {
+.genemon .minion .profile-img {
   flex: 0 0 100px;
   height: 124px;
   width: auto;
@@ -1856,64 +1856,64 @@ img {
   -o-object-fit: contain;
   object-fit: contain;
 }
-.starwarsffg .minion .resource.single {
+.genemon .minion .resource.single {
   width: 8.125rem;
 }
-.starwarsffg .minion .sheet-body {
+.genemon .minion .sheet-body {
   height: calc(100% - 14.6875rem);
   overflow: hidden;
 }
-.starwarsffg .minion .sheet-body .biography {
+.genemon .minion .sheet-body .biography {
   height: calc(100% - 4.6875rem);
   overflow: auto;
 }
-.starwarsffg .minion .sheet-body .characteristics {
+.genemon .minion .sheet-body .characteristics {
   overflow: hidden;
   height: calc(100% + 26.25rem);
 }
-.starwarsffg .minion .sheet-body .skillsTablesGrid {
+.genemon .minion .sheet-body .skillsTablesGrid {
   height: calc(100% - 32.1875rem);
   overflow: auto;
 }
-.starwarsffg.sheet.actor.v2 .minion .sheet-body .skillsTablesGrid {
+.genemon.sheet.actor.v2 .minion .sheet-body .skillsTablesGrid {
   height: calc(100% - 31.1rem);
 }
-.starwarsffg.sheet.actor.v2 .minion .profile-block {
+.genemon.sheet.actor.v2 .minion .profile-block {
   margin-right: 8px;
 }
-.starwarsffg.sheet.actor .vehicle .header-fields .container.flex-group-center {
+.genemon.sheet.actor .vehicle .header-fields .container.flex-group-center {
   padding: 0;
   margin-bottom: 0;
 }
-.starwarsffg.sheet.actor .vehicle .header-fields .grid {
+.genemon.sheet.actor .vehicle .header-fields .grid {
   margin: 5px;
 }
-.starwarsffg.sheet.actor .vehicle .header-fields .grid.grid-4col {
+.genemon.sheet.actor .vehicle .header-fields .grid.grid-4col {
   margin: 10px;
 }
-.starwarsffg.sheet.actor .vehicle .header-fields .block-background {
+.genemon.sheet.actor .vehicle .header-fields .block-background {
   position: relative;
 }
-.starwarsffg.sheet.actor .vehicle .header-fields .flex-group-right {
+.genemon.sheet.actor .vehicle .header-fields .flex-group-right {
   border: 0;
   padding: 0 5px;
 }
-.starwarsffg.sheet.actor .vehicle .header-fields .profile-block {
+.genemon.sheet.actor .vehicle .header-fields .profile-block {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
 }
-.starwarsffg.sheet.actor .vehicle .header-fields .profile-block .profile-img {
+.genemon.sheet.actor .vehicle .header-fields .profile-block .profile-img {
   height: 200px;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
-.starwarsffg.sheet.actor .vehicle .defense-group {
+.genemon.sheet.actor .vehicle .defense-group {
   width: 100%;
 }
-.starwarsffg.sheet.actor .vehicle .defense-group .defense-decoration {
+.genemon.sheet.actor .vehicle .defense-group .defense-decoration {
   position: absolute;
   width: 175px;
   height: 175px;
@@ -1923,19 +1923,19 @@ img {
   transform: translate(-50%, -50%) rotate(45deg);
   background: conic-gradient(#c7794b 0% 25%, #dbc48e 25% 50%, #c7794b 50% 75%, #dbc48e 75% 100%);
 }
-.starwarsffg.sheet.actor .vehicle .defense-group .defense-decoration img {
+.genemon.sheet.actor .vehicle .defense-group .defense-decoration img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
   border: 0;
 }
-.starwarsffg.sheet.actor .vehicle .defense-block {
+.genemon.sheet.actor .vehicle .defense-block {
   height: 200px;
   width: 100%;
   position: relative;
 }
-.starwarsffg.sheet.actor .vehicle .defense-block .defense-block-title {
+.genemon.sheet.actor .vehicle .defense-block .defense-block-title {
   position: absolute;
   top: 0;
   left: 0;
@@ -1948,14 +1948,14 @@ img {
   -webkit-clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
   clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
 }
-.starwarsffg.sheet.actor .vehicle .defense-block .defense-value {
+.genemon.sheet.actor .vehicle .defense-block .defense-value {
   border-radius: 10px;
   border: 5px double #1f1c39;
   margin: auto;
   position: absolute;
   background-color: white;
 }
-.starwarsffg.sheet.actor .vehicle .defense-block .defense-value .defense-value-label {
+.genemon.sheet.actor .vehicle .defense-block .defense-value .defense-value-label {
   position: absolute;
   text-transform: uppercase;
   background-color: #490c0b;
@@ -1969,202 +1969,202 @@ img {
   -webkit-clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
   clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%, calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100% calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%, var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
 }
-.starwarsffg.sheet.actor .vehicle .defense-block .defense-value.fore {
+.genemon.sheet.actor .vehicle .defense-block .defense-value.fore {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
 }
-.starwarsffg.sheet.actor .vehicle .defense-block .defense-value.fore .defense-value-label {
+.genemon.sheet.actor .vehicle .defense-block .defense-value.fore .defense-value-label {
   bottom: -20px;
 }
-.starwarsffg.sheet.actor .vehicle .defense-block .defense-value.aft {
+.genemon.sheet.actor .vehicle .defense-block .defense-value.aft {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
 }
-.starwarsffg.sheet.actor .vehicle .defense-block .defense-value.aft .defense-value-label {
+.genemon.sheet.actor .vehicle .defense-block .defense-value.aft .defense-value-label {
   top: -20px;
 }
-.starwarsffg.sheet.actor .vehicle .defense-block .defense-value.port {
+.genemon.sheet.actor .vehicle .defense-block .defense-value.port {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
 }
-.starwarsffg.sheet.actor .vehicle .defense-block .defense-value.port .defense-value-label {
+.genemon.sheet.actor .vehicle .defense-block .defense-value.port .defense-value-label {
   left: 50px;
   top: 50%;
   transform: translateY(-50%);
 }
-.starwarsffg.sheet.actor .vehicle .defense-block .defense-value.starboard {
+.genemon.sheet.actor .vehicle .defense-block .defense-value.starboard {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
 }
-.starwarsffg.sheet.actor .vehicle .defense-block .defense-value.starboard .defense-value-label {
+.genemon.sheet.actor .vehicle .defense-block .defense-value.starboard .defense-value-label {
   left: -50px;
   top: 50%;
   transform: translateY(-50%);
 }
-.starwarsffg.sheet.actor .vehicle .defense-block .defense-value input {
+.genemon.sheet.actor .vehicle .defense-block .defense-value input {
   height: 40px;
   width: 40px;
   border: 0;
   font-size: 30px;
   text-align: center;
 }
-.starwarsffg.sheet.actor .vehicle .defense-block .defense-value input:focus {
+.genemon.sheet.actor .vehicle .defense-block .defense-value input:focus {
   box-shadow: 0 0 5px #7da9c2;
   background-color: #7da9c2;
   border-radius: 5px;
 }
-.starwarsffg.sheet.actor .vehicle .characteristic-item {
+.genemon.sheet.actor .vehicle .characteristic-item {
   width: 100%;
 }
-.starwarsffg.sheet.actor .vehicle .characteristic-item .characteristic-label {
+.genemon.sheet.actor .vehicle .characteristic-item .characteristic-label {
   background-color: #226cc5;
 }
-.starwarsffg.sheet.actor .vehicle .characteristic-item .characteristic {
+.genemon.sheet.actor .vehicle .characteristic-item .characteristic {
   border-radius: 10px;
   border: 5px double #1f1c39;
 }
-.starwarsffg.sheet.actor .vehicle .characteristic-item .characteristic .characteristic-value input:focus {
+.genemon.sheet.actor .vehicle .characteristic-item .characteristic .characteristic-value input:focus {
   border-radius: 5px;
 }
-.starwarsffg.sheet.actor .vehicle .attribute .block-title {
+.genemon.sheet.actor .vehicle .attribute .block-title {
   background-color: #1f1c39;
 }
-.starwarsffg.sheet.actor .vehicle .resource.single {
+.genemon.sheet.actor .vehicle .resource.single {
   width: 115px;
 }
-.starwarsffg.sheet.actor .vehicle .biography-values {
+.genemon.sheet.actor .vehicle .biography-values {
   border: 0;
 }
-.starwarsffg.sheet.actor .vehicle .sheet-body {
+.genemon.sheet.actor .vehicle .sheet-body {
   height: calc(100% - 28.875rem);
   overflow: auto;
 }
-.starwarsffg.sheet.actor .vehicle .sheet-body .biography {
+.genemon.sheet.actor .vehicle .sheet-body .biography {
   height: calc(100% - 6.5rem);
   overflow: auto;
 }
-.starwarsffg.sheet.actor .vehicle .injuries .resource.full {
+.genemon.sheet.actor .vehicle .injuries .resource.full {
   width: 100%;
 }
-.starwarsffg.sheet.actor .homestead .sheet-header .homestead-img {
+.genemon.sheet.actor .homestead .sheet-header .homestead-img {
   height: 20vmin;
 }
-.starwarsffg.sheet.actor .homestead .biography-values {
+.genemon.sheet.actor .homestead .biography-values {
   border: 0;
 }
-.starwarsffg.sheet.actor .homestead .sheet-body {
+.genemon.sheet.actor .homestead .sheet-body {
   height: calc(100% - 28.875rem);
   overflow: auto;
 }
-.starwarsffg.sheet.actor .homestead .sheet-body .biography {
+.genemon.sheet.actor .homestead .sheet-body .biography {
   height: calc(100% - 1.5rem);
   overflow: auto;
 }
-.starwarsffg .item-sheet-vehicle-weapon .charname input {
+.genemon .item-sheet-vehicle-weapon .charname input {
   color: #1f1c37;
 }
-.starwarsffg .item-sheet-vehicle-weapon .characteristic-item .characteristic-label {
+.genemon .item-sheet-vehicle-weapon .characteristic-item .characteristic-label {
   background-color: #1f1c37;
 }
-.starwarsffg .item-sheet-vehicle-weapon .characteristic-item .characteristic {
+.genemon .item-sheet-vehicle-weapon .characteristic-item .characteristic {
   border: 5px double #1f1c37;
 }
-.starwarsffg .item-sheet-vehicle-weapon .characteristic-item .characteristic .adjustedvalues-left {
+.genemon .item-sheet-vehicle-weapon .characteristic-item .characteristic .adjustedvalues-left {
   position: absolute;
   top: 0;
   right: 2px;
   color: red;
 }
-.starwarsffg .item-sheet-vehicle-weapon .characteristic-item .characteristic .adjustedvalues-left.positive {
+.genemon .item-sheet-vehicle-weapon .characteristic-item .characteristic .adjustedvalues-left.positive {
   color: green;
 }
-.starwarsffg .item-sheet-vehicle-weapon .adjustedvalue {
+.genemon .item-sheet-vehicle-weapon .adjustedvalue {
   color: red;
 }
-.starwarsffg .item-sheet-vehicle-weapon .block-background {
+.genemon .item-sheet-vehicle-weapon .block-background {
   background-color: #cccae3;
 }
-.starwarsffg .item-sheet-vehicle-weapon .attribute .block-title {
+.genemon .item-sheet-vehicle-weapon .attribute .block-title {
   background-color: #1f1c37;
 }
-.starwarsffg .item-sheet-vehicle-weapon .firing-arcs {
+.genemon .item-sheet-vehicle-weapon .firing-arcs {
   gap: 0px;
   text-align: left;
   padding: 0 10px;
   line-height: 20px;
 }
-.starwarsffg .item-sheet-vehicle-weapon .firing-arcs label {
+.genemon .item-sheet-vehicle-weapon .firing-arcs label {
   display: inline-block;
   padding-left: 15px;
   text-indent: -15px;
   font-size: 0.675rem;
 }
-.starwarsffg .item-sheet-vehicle-weapon .firing-arcs input[type=checkbox] {
+.genemon .item-sheet-vehicle-weapon .firing-arcs input[type=checkbox] {
   position: relative;
   padding: 0;
   margin: 0;
   width: 13px;
   height: 13px;
 }
-.starwarsffg .item-sheet-vehicle-weapon .sheet-body {
+.genemon .item-sheet-vehicle-weapon .sheet-body {
   height: calc(100% - 34.6875rem);
 }
-.starwarsffg .item-sheet-vehicle-weapon .pills.itemmodifier, .starwarsffg .item-sheet-vehicle-weapon .pills.itemattachment {
+.genemon .item-sheet-vehicle-weapon .pills.itemmodifier, .genemon .item-sheet-vehicle-weapon .pills.itemattachment {
   width: auto;
   max-width: 50%;
   width: 50%;
 }
-.starwarsffg .item-sheet-vehicle-weapon .pills.itemmodifier .item-pill-list, .starwarsffg .item-sheet-vehicle-weapon .pills.itemattachment .item-pill-list {
+.genemon .item-sheet-vehicle-weapon .pills.itemmodifier .item-pill-list, .genemon .item-sheet-vehicle-weapon .pills.itemattachment .item-pill-list {
   max-height: 75px;
   height: 75px;
   overflow-y: scroll;
   overflow-x: hidden;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-vehicle-weapon .container.flex-group-center {
+.genemon.sheet.item.v2 .item-sheet-vehicle-weapon .container.flex-group-center {
   padding: 0 5px 0 5px;
   margin-bottom: 0;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-vehicle-weapon .weapon-values {
+.genemon.sheet.item.v2 .item-sheet-vehicle-weapon .weapon-values {
   margin: 0 5px;
   padding: 0 5px 0 5px;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-vehicle-weapon .sheet-body {
+.genemon.sheet.item.v2 .item-sheet-vehicle-weapon .sheet-body {
   height: calc(100% - 17.3125rem);
 }
-.starwarsffg .item-sheet-vehicle-attachment .charname input {
+.genemon .item-sheet-vehicle-attachment .charname input {
   color: #c87b4d;
 }
-.starwarsffg .item-sheet-vehicle-attachment .characteristic-item .characteristic-label {
+.genemon .item-sheet-vehicle-attachment .characteristic-item .characteristic-label {
   background-color: #c87b4d;
 }
-.starwarsffg .item-sheet-vehicle-attachment .characteristic-item .characteristic {
+.genemon .item-sheet-vehicle-attachment .characteristic-item .characteristic {
   border: 5px double #c87b4d;
 }
-.starwarsffg .item-sheet-vehicle-attachment .block-background {
+.genemon .item-sheet-vehicle-attachment .block-background {
   background-color: #dfc68d;
 }
-.starwarsffg .item-sheet-vehicle-attachment .attribute .block-title {
+.genemon .item-sheet-vehicle-attachment .attribute .block-title {
   background-color: #c87b4d;
 }
-.starwarsffg .item-sheet-vehicle-attachment .sheet-body {
+.genemon .item-sheet-vehicle-attachment .sheet-body {
   height: calc(100% - 21.3125rem);
 }
-.starwarsffg.sheet.item.v2 .item-sheet-vehicle-attachment .container.flex-group-center {
+.genemon.sheet.item.v2 .item-sheet-vehicle-attachment .container.flex-group-center {
   padding: 0 5px 0 5px;
   margin-bottom: 0;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-vehicle-attachment .weapon-values {
+.genemon.sheet.item.v2 .item-sheet-vehicle-attachment .weapon-values {
   margin: 0 5px;
   padding: 0 5px 0 5px;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-vehicle-attachment .sheet-body {
+.genemon.sheet.item.v2 .item-sheet-vehicle-attachment .sheet-body {
   height: calc(100% - 17.3125rem);
 }
-.starwarsffg .group-manager {
+.genemon .group-manager {
   overflow-y: auto;
   font-family: Roboto, sans-serif;
   color: #222222;
@@ -2172,33 +2172,33 @@ img {
   width: auto;
   text-align: center;
 }
-.starwarsffg .group-manager .PC-list {
+.genemon .group-manager .PC-list {
   margin: 20px 0;
 }
-.starwarsffg .group-manager .initiative-mode {
+.genemon .group-manager .initiative-mode {
   width: 100%;
 }
-.starwarsffg .group-manager .player-character:hover {
+.genemon .group-manager .player-character:hover {
   background: rgba(25, 24, 19, 0.03);
   margin: 2px;
 }
-.starwarsffg .item:hover .hover {
+.genemon .item:hover .hover {
   text-decoration: underline;
 }
-.starwarsffg .hover:hover .tooltip {
+.genemon .hover:hover .tooltip {
   opacity: 1;
   z-index: 500;
 }
-.starwarsffg .hover:hover .tooltip2 {
+.genemon .hover:hover .tooltip2 {
   opacity: 1;
   z-index: 500;
   pointer-events: none;
 }
-.starwarsffg .hover:focus .tooltip2 {
+.genemon .hover:focus .tooltip2 {
   opacity: 1;
   z-index: 500;
 }
-.starwarsffg .hover .tooltip {
+.genemon .hover .tooltip {
   top: 30px;
   background-color: rgba(25, 24, 19, 0.8);
   color: white;
@@ -2209,7 +2209,7 @@ img {
   z-index: -500;
   padding: 0 10px;
 }
-.starwarsffg .hover .tooltip2 {
+.genemon .hover .tooltip2 {
   width: 100%;
   height: -webkit-max-content;
   height: -moz-max-content;
@@ -2227,176 +2227,176 @@ img {
   opacity: 0;
   padding: 5px 10px;
 }
-.starwarsffg .hover .tooltip2 li {
+.genemon .hover .tooltip2 li {
   text-align: left;
 }
-.starwarsffg .hover .tooltip2 .dietype {
+.genemon .hover .tooltip2 .dietype {
   background-color: white;
 }
-.starwarsffg .ffg-sendtochat.hover:hover .tooltip2 {
+.genemon .ffg-sendtochat.hover:hover .tooltip2 {
   background: #fff;
   border: 1px solid #23221d;
   color: #23221d;
 }
-.starwarsffg .item-sheet-criticalinjury .charname input {
+.genemon .item-sheet-criticalinjury .charname input {
   color: #830707;
 }
-.starwarsffg .item-sheet-criticalinjury .block-background {
+.genemon .item-sheet-criticalinjury .block-background {
   background-color: #da9797;
 }
-.starwarsffg .item-sheet-criticalinjury .block-background .block-title {
+.genemon .item-sheet-criticalinjury .block-background .block-title {
   background-color: #830707;
 }
-.starwarsffg .item-sheet-criticalinjury .severity-img {
+.genemon .item-sheet-criticalinjury .severity-img {
   max-height: 15px;
   max-width: 15px;
   border: 0;
 }
-.starwarsffg .item-sheet-criticalinjury .severity-select {
+.genemon .item-sheet-criticalinjury .severity-select {
   width: 185px;
 }
-.starwarsffg .item-sheet-criticalinjury select:focus {
+.genemon .item-sheet-criticalinjury select:focus {
   box-shadow: 0 0 5px #7da9c2;
   background-color: #7da9c2;
 }
-.starwarsffg .item-sheet-criticalinjury .editor-wrapper {
+.genemon .item-sheet-criticalinjury .editor-wrapper {
   display: block;
 }
-.starwarsffg .item-sheet-criticalinjury .block-background.block-editor {
+.genemon .item-sheet-criticalinjury .block-background.block-editor {
   padding: 10px;
   background-color: #da9797;
   height: 8rem;
 }
-.starwarsffg .item-sheet-criticalinjury .severity-block {
+.genemon .item-sheet-criticalinjury .severity-block {
   position: relative;
 }
-.starwarsffg .item-sheet-criticalinjury .sheet-body {
+.genemon .item-sheet-criticalinjury .sheet-body {
   height: calc(100% - 19.375rem);
 }
-.starwarsffg.sheet.item.v2 .item-sheet-criticalinjury .sheet-body {
+.genemon.sheet.item.v2 .item-sheet-criticalinjury .sheet-body {
   height: calc(100% - 18.75rem);
 }
-.starwarsffg .injuries {
+.genemon .injuries {
   width: 100%;
 }
-.starwarsffg .injuries div.item {
+.genemon .injuries div.item {
   cursor: pointer;
   border-bottom: 1px solid #bbb;
 }
-.starwarsffg .injuries div.item:nth-last-of-type(1) {
+.genemon .injuries div.item:nth-last-of-type(1) {
   border-bottom: none;
 }
-.starwarsffg .injuries div.item:hover {
+.genemon .injuries div.item:hover {
   background: rgba(25, 24, 19, 0.12);
 }
-.starwarsffg .injuries .severity {
+.genemon .injuries .severity {
   position: relative;
 }
-.starwarsffg .injuries .severity-img {
+.genemon .injuries .severity-img {
   max-height: 15px;
   max-width: 15px;
   border: 0;
 }
-.starwarsffg .injuries .resource.full {
+.genemon .injuries .resource.full {
   width: 95%;
 }
-.starwarsffg .injuries .item-controls {
+.genemon .injuries .item-controls {
   z-index: 500;
   text-align: end;
   margin: auto;
 }
-.starwarsffg .injuries .item-controls .item-control {
+.genemon .injuries .item-controls .item-control {
   padding: 5px;
 }
-.starwarsffg.sheet.item .item-sheet-forcepower .popout-editor {
+.genemon.sheet.item .item-sheet-forcepower .popout-editor {
   height: 100%;
   width: 100%;
   min-height: 2rem;
   position: relative;
 }
-.starwarsffg .item-sheet-forcepower {
+.genemon .item-sheet-forcepower {
   min-width: 700px;
   min-height: 600px;
 }
-.starwarsffg .item-sheet-forcepower .talent-background .talent-header {
+.genemon .item-sheet-forcepower .talent-background .talent-header {
   background-color: #0e4400;
 }
-.starwarsffg .item-sheet-forcepower .talent-background .talent-header div input[type=text] {
+.genemon .item-sheet-forcepower .talent-background .talent-header div input[type=text] {
   background-color: #1a8200;
 }
-.starwarsffg .item-sheet-forcepower .header-fields .talent-body {
+.genemon .item-sheet-forcepower .header-fields .talent-body {
   margin-top: 5px;
   padding: 0 5px;
 }
-.starwarsffg .item-sheet-forcepower .header-fields {
+.genemon .item-sheet-forcepower .header-fields {
   position: relative;
 }
-.starwarsffg .item-sheet-forcepower .header-fields .talent-actions {
+.genemon .item-sheet-forcepower .header-fields .talent-actions {
   position: absolute;
   right: 10px;
   top: 14px;
   color: white;
 }
-.starwarsffg .item-sheet-forcepower .header-fields textarea {
+.genemon .item-sheet-forcepower .header-fields textarea {
   max-width: 695px;
 }
-.starwarsffg .item-sheet-forcepower .sheet-body {
+.genemon .item-sheet-forcepower .sheet-body {
   margin: 0;
   height: calc(100% - 10rem);
 }
-.starwarsffg .item-sheet-forcepower .talent-cost {
+.genemon .item-sheet-forcepower .talent-cost {
   bottom: -5px;
   left: 7px;
   position: absolute;
   z-index: 10;
   width: 60px;
 }
-.starwarsffg .item-sheet-forcepower .talent-cost input {
+.genemon .item-sheet-forcepower .talent-cost input {
   width: 25px;
   border: 0;
   background: rgba(0, 0, 0, 0);
 }
-.starwarsffg .item-sheet-forcepower .talent-modifiers {
+.genemon .item-sheet-forcepower .talent-modifiers {
   position: absolute;
   right: 5px;
   bottom: 2px;
   z-index: 10;
 }
-.starwarsffg .talent-list .item.forcepower #context-menu {
+.genemon .talent-list .item.forcepower #context-menu {
   max-width: none;
 }
-.starwarsffg .force-conflict {
+.genemon .force-conflict {
   display: flex;
   align-items: center;
   flex-direction: column;
   row-gap: 3px;
 }
-.starwarsffg.sheet.item .item-sheet-specialization .popout-editor {
+.genemon.sheet.item .item-sheet-specialization .popout-editor {
   height: 100%;
   width: 100%;
   min-height: 2rem;
   position: relative;
 }
-.starwarsffg .item-sheet-specialization {
+.genemon .item-sheet-specialization {
   min-width: 700px;
   min-height: 600px;
 }
-.starwarsffg .item-sheet-specialization .talent-upgrade {
+.genemon .item-sheet-specialization .talent-upgrade {
   margin: 1px 10px 4px 10px;
 }
-.starwarsffg .item-sheet-specialization .sheet-body {
+.genemon .item-sheet-specialization .sheet-body {
   margin: 0;
   height: calc(100% - 9rem);
   word-break: break-word;
 }
-.starwarsffg .item-sheet-specialization input.conflict {
+.genemon .item-sheet-specialization input.conflict {
   opacity: 0.5;
 }
-.starwarsffg .item-sheet-specialization input.conflict:after {
+.genemon .item-sheet-specialization input.conflict:after {
   content: "";
   background-color: red;
 }
-.starwarsffg .burst-8 {
+.genemon .burst-8 {
   z-index: -1;
   left: 7px;
   background: white;
@@ -2406,7 +2406,7 @@ img {
   text-align: center;
   transform: rotate(20deg);
 }
-.starwarsffg .burst-8:before {
+.genemon .burst-8:before {
   content: "";
   position: absolute;
   top: 0;
@@ -2416,7 +2416,7 @@ img {
   background: white;
   transform: rotate(135deg);
 }
-.starwarsffg div.conflict {
+.genemon div.conflict {
   height: 23px;
   width: 22px;
   position: absolute;
@@ -2425,81 +2425,81 @@ img {
   top: 7px;
   z-index: -1;
 }
-.starwarsffg.data-import .import-file-selector div {
+.genemon.data-import .import-file-selector div {
   display: inline-block;
 }
-.starwarsffg.data-import .import-invalid {
+.genemon.data-import .import-invalid {
   display: none;
 }
-.starwarsffg.data-import .import-hidden {
+.genemon.data-import .import-hidden {
   visibility: hidden;
 }
-.starwarsffg.data-import .import-progress {
+.genemon.data-import .import-progress {
   background-color: #f1f1f1;
   margin: 5px 5px;
   width: 100%;
 }
-.starwarsffg.data-import .import-progress.current {
+.genemon.data-import .import-progress.current {
   width: inherit;
 }
-.starwarsffg.data-import .import-progress.overall {
+.genemon.data-import .import-progress.overall {
   width: inherit;
 }
-.starwarsffg.data-import .import-progress .import-progress-bar {
+.genemon.data-import .import-progress .import-progress-bar {
   height: 24px;
   background-color: green;
   text-align: center;
 }
-.starwarsffg.data-import .import-progress .import-progress-bar span {
+.genemon.data-import .import-progress .import-progress-bar span {
   line-height: 24px;
 }
-.starwarsffg.data-import .skilllist table {
+.genemon.data-import .skilllist table {
   width: 100%;
   table-layout: fixed;
   border-collapse: collapse;
 }
-.starwarsffg.data-import .skilllist th, .starwarsffg.data-import .skilllist td {
+.genemon.data-import .skilllist th, .genemon.data-import .skilllist td {
   padding: 0.3125rem;
   text-align: center;
   width: 7.8125rem;
 }
-.starwarsffg.data-import .skilllist tbody {
+.genemon.data-import .skilllist tbody {
   display: block;
   overflow: auto;
   height: 4.5rem;
   width: 100%;
 }
-.starwarsffg.data-import .skilllist thead tr {
+.genemon.data-import .skilllist thead tr {
   display: block;
 }
-.starwarsffg.data-import .skilllist .skilltheme {
+.genemon.data-import .skilllist .skilltheme {
   text-align: left;
 }
-.starwarsffg.data-import .skilllist .fa-download {
+.genemon.data-import .skilllist .fa-download {
   cursor: pointer;
 }
-.starwarsffg.data-import .skilllist .skillactive {
+.genemon.data-import .skilllist .skillactive {
   text-align: center;
 }
-.starwarsffg.data-import .skilllist .skillactive .fa-check-circle {
+.genemon.data-import .skilllist .skillactive .fa-check-circle {
   color: green;
 }
-.starwarsffg.data-import .skilllist .skillactive .fa-times-circle {
+.genemon.data-import .skilllist .skillactive .fa-times-circle {
   color: red;
 }
-.starwarsffg .debug label {
+.genemon .debug label {
   display: block;
   padding-left: 15px;
   text-indent: -15px;
 }
-.starwarsffg .debug input[type=checkbox] {
+.genemon .debug input[type=checkbox] {
   position: relative;
   padding: 0;
   margin: 0;
   width: 13px;
   height: 13px;
 }
-.starwarsffg .item-sheet-species .sheet-header img.profile-img {
+.genemon .item-sheet-species .sheet-header img.profile-img {
   flex: 0 0 100px;
   height: 124px;
   width: auto;
@@ -2509,13 +2509,13 @@ img {
   -o-object-fit: contain;
   object-fit: contain;
 }
-.starwarsffg .item-sheet-species .characteristics {
+.genemon .item-sheet-species .characteristics {
   width: 100%;
 }
-.starwarsffg .item-sheet-species .characteristics .characteristic-item .characteristic-label {
+.genemon .item-sheet-species .characteristics .characteristic-item .characteristic-label {
   background-color: #490c0b;
 }
-.starwarsffg .item-sheet-species .characteristic {
+.genemon .item-sheet-species .characteristic {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -2523,40 +2523,40 @@ img {
   margin: auto;
   position: relative;
 }
-.starwarsffg .item-sheet-species .characteristic .characteristic-value input {
+.genemon .item-sheet-species .characteristic .characteristic-value input {
   height: 40px;
   border: 0;
   font-size: 30px;
   text-align: center;
 }
-.starwarsffg .item-sheet-species .characteristic .characteristic-value input:focus {
+.genemon .item-sheet-species .characteristic .characteristic-value input:focus {
   border-radius: 50%;
 }
-.starwarsffg .item-sheet-species .attribute .block-title {
+.genemon .item-sheet-species .attribute .block-title {
   background-color: #490c0b;
 }
-.starwarsffg .item-sheet-species .sheet-body {
+.genemon .item-sheet-species .sheet-body {
   height: calc(100% - 25.25rem);
 }
-.starwarsffg.sheet.item.v2 .item-sheet-species .container.flex-group-center {
+.genemon.sheet.item.v2 .item-sheet-species .container.flex-group-center {
   padding: 0 5px 0 5px;
   margin-bottom: 0;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-species .weapon-values {
+.genemon.sheet.item.v2 .item-sheet-species .weapon-values {
   margin: 0 5px;
   padding: 0 5px 0 5px;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-species .sheet-body {
+.genemon.sheet.item.v2 .item-sheet-species .sheet-body {
   height: calc(100% - 21.1125rem);
 }
-.starwarsffg .item-sheet-career .sheet-body {
+.genemon .item-sheet-career .sheet-body {
   height: calc(100% - 11.75rem);
 }
-.starwarsffg .attributes {
+.genemon .attributes {
   margin: 0;
   border: 0;
 }
-.starwarsffg .attributes .attributes-header {
+.genemon .attributes .attributes-header {
   padding: 5px;
   margin: 0 0 5px 0;
   background: rgba(0, 0, 0, 0.05);
@@ -2564,18 +2564,18 @@ img {
   border-radius: 2px;
   font-weight: bold;
 }
-.starwarsffg .attributes .attribute-label {
+.genemon .attributes .attribute-label {
   flex: 1.5;
 }
-.starwarsffg .attributes .attribute-control {
+.genemon .attributes .attribute-control {
   flex: 0 0 20px;
 }
-.starwarsffg .attributes .attributes-list {
+.genemon .attributes .attributes-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.starwarsffg .attributes .attributes-list tr > * {
+.genemon .attributes .attributes-list tr > * {
   margin: 0 3px;
   height: 28px;
   line-height: 24px;
@@ -2585,118 +2585,118 @@ img {
   border-bottom: 1px solid #aaa;
   overflow: auto;
 }
-.starwarsffg .attributes .attributes-list .attribute.item {
+.genemon .attributes .attributes-list .attribute.item {
   position: relative;
 }
-.starwarsffg .attributes .attributes-list .attribute.item:hover {
+.genemon .attributes .attributes-list .attribute.item:hover {
   background: rgba(25, 24, 19, 0.12);
   margin: 2px;
 }
-.starwarsffg .attributes .attribute-value.checkbox {
+.genemon .attributes .attribute-value.checkbox {
   text-align: center;
 }
-.starwarsffg.sheet.item .item-sheet-signatureability .popout-editor {
+.genemon.sheet.item .item-sheet-signatureability .popout-editor {
   height: 100%;
   width: 100%;
   min-height: 2rem;
   position: relative;
 }
-.starwarsffg .item-sheet-signatureability .talent-background .talent-header {
+.genemon .item-sheet-signatureability .talent-background .talent-header {
   background-color: #630000;
 }
-.starwarsffg .item-sheet-signatureability .talent-background .talent-header div input[type=text] {
+.genemon .item-sheet-signatureability .talent-background .talent-header div input[type=text] {
   background-color: #fcadad;
 }
-.starwarsffg .item-sheet-signatureability .header-fields {
+.genemon .item-sheet-signatureability .header-fields {
   position: relative;
 }
-.starwarsffg .item-sheet-signatureability .header-fields .talent-actions {
+.genemon .item-sheet-signatureability .header-fields .talent-actions {
   position: absolute;
   right: 10px;
   top: 14px;
   color: white;
 }
-.starwarsffg .item-sheet-signatureability .header-fields textarea {
+.genemon .item-sheet-signatureability .header-fields textarea {
   max-width: 695px;
 }
-.starwarsffg .item-sheet-signatureability .sheet-body {
+.genemon .item-sheet-signatureability .sheet-body {
   margin: 0;
   overflow: hidden;
 }
-.starwarsffg .item-sheet-signatureability .talent-cost {
+.genemon .item-sheet-signatureability .talent-cost {
   bottom: -5px;
   left: 7px;
   position: absolute;
   z-index: 10;
   width: 60px;
 }
-.starwarsffg .item-sheet-signatureability .talent-cost input {
+.genemon .item-sheet-signatureability .talent-cost input {
   width: 25px;
   border: 0;
   background: rgba(0, 0, 0, 0);
 }
-.starwarsffg .item-sheet-signatureability .talent-modifiers {
+.genemon .item-sheet-signatureability .talent-modifiers {
   position: absolute;
   right: 5px;
   bottom: 2px;
   z-index: 10;
 }
-.starwarsffg .item-sheet-modifiers .charname input {
+.genemon .item-sheet-modifiers .charname input {
   color: #2c0344;
 }
-.starwarsffg .item-sheet-modifiers .characteristic-item .characteristic-label {
+.genemon .item-sheet-modifiers .characteristic-item .characteristic-label {
   background-color: #2c0344;
 }
-.starwarsffg .item-sheet-modifiers .block-background {
+.genemon .item-sheet-modifiers .block-background {
   background-color: #e9c6fd;
 }
-.starwarsffg .item-sheet-modifiers .attribute .block-title {
+.genemon .item-sheet-modifiers .attribute .block-title {
   background-color: #2c0344;
 }
-.starwarsffg .item-sheet-modifiers .sheet-body {
+.genemon .item-sheet-modifiers .sheet-body {
   height: calc(100% - 12.7rem);
   overflow: auto;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-modifiers .container.flex-group-center {
+.genemon.sheet.item.v2 .item-sheet-modifiers .container.flex-group-center {
   padding: 0 5px 0 5px;
   margin-bottom: 0;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-modifiers .weapon-values {
+.genemon.sheet.item.v2 .item-sheet-modifiers .weapon-values {
   margin: 0 5px;
   padding: 0 5px 0 5px;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-modifiers .sheet-body {
+.genemon.sheet.item.v2 .item-sheet-modifiers .sheet-body {
   height: calc(100% - 8.6rem);
 }
-.starwarsffg .item-sheet-itemattachment .profile-img-field {
+.genemon .item-sheet-itemattachment .profile-img-field {
   width: 25%;
 }
-.starwarsffg .item-sheet-itemattachment .profile-img-field img.profile-img {
+.genemon .item-sheet-itemattachment .profile-img-field img.profile-img {
   width: 100%;
   height: auto;
 }
-.starwarsffg .item-sheet-itemattachment .sheet-body {
+.genemon .item-sheet-itemattachment .sheet-body {
   height: calc(100% - 19rem);
 }
-.starwarsffg .item-sheet-itemattachment .sheet-body table th:first-child {
+.genemon .item-sheet-itemattachment .sheet-body table th:first-child {
   text-align: left;
   padding-left: 3px;
 }
-.starwarsffg .item-sheet-itemattachment .sheet-body table td:not(:first-child) {
+.genemon .item-sheet-itemattachment .sheet-body table td:not(:first-child) {
   position: relative;
   text-align: center;
 }
-.starwarsffg .item-sheet-itemattachment .sheet-body table td:not(:first-child) .quantity {
+.genemon .item-sheet-itemattachment .sheet-body table td:not(:first-child) .quantity {
   top: 3px;
 }
-.starwarsffg .item-sheet-itemattachment .sheet-body table td .modifier-active i {
+.genemon .item-sheet-itemattachment .sheet-body table td .modifier-active i {
   cursor: pointer;
 }
-.starwarsffg .item-sheet-itemattachment .sheet-body table td.add-modifier i {
+.genemon .item-sheet-itemattachment .sheet-body table td.add-modifier i {
   padding: 0 2px;
   cursor: pointer;
 }
-.starwarsffg.sheet.item.v2 .item-sheet-itemattachment .sheet-body {
+.genemon.sheet.item.v2 .item-sheet-itemattachment .sheet-body {
   height: calc(100% - 16.5rem);
 }
 

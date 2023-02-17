@@ -118,13 +118,13 @@
   border: none;
   &.rollable {
     &:hover {
-      background-image: url(/systems/starwarsffg/images/generic-die.svg) !important;
+      background-image: url(/systems/genemon/images/generic-die.svg) !important;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
     }
   }
-} 
+}
 
 &.item-card {
   .item-details {
@@ -141,7 +141,7 @@
         font-size: 12px;
         line-height: 20px;
         white-space: nowrap;
-    
+
         &.adjusted {
           color: #8b0000;
         }

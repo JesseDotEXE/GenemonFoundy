@@ -9,9 +9,9 @@ export default class FFGFunctionalTests extends FormApplication {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       id: "functional-test",
-      classes: ["starwarsffg"],
+      classes: ["genemon"],
       title: "Functional Tests",
-      template: "systems/starwarsffg/templates/ffg-tester.html",
+      template: "systems/genemon/templates/ffg-tester.html",
     });
   }
 

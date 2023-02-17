@@ -133,7 +133,7 @@ export default class ImportHelpers {
    */
   static findEntityByImportId(type, id) {
     return game.data[type].find((item) => {
-      return item.flags.starwarsffg.ffgimportid === id;
+      return item.flags.genemon.ffgimportid === id;
     });
   }
 
@@ -173,7 +173,7 @@ export default class ImportHelpers {
 
           const content = await pack.getDocuments();
           for (var i = 0; i < content.length; i++) {
-            CONFIG.temporary[packid][content[i].flags?.starwarsffg?.ffgimportid] = duplicate(content[i]);
+            CONFIG.temporary[packid][content[i].flags?.genemon?.ffgimportid] = duplicate(content[i]);
           }
         }
       } else {
@@ -1002,11 +1002,11 @@ export default class ImportHelpers {
           const weapon = JSON.parse(JSON.stringify(await this.findCompendiumEntityByImportId("Item", w.ItemKey, undefined, "weapon")));
           delete weapon._id;
 
-          const weaponItems = adversary.items.filter((s) => s.flags.starwarsffg.ffgimportid === weapon.flags.starwarsffg.ffgimportid);
+          const weaponItems = adversary.items.filter((s) => s.flags.genemon.ffgimportid === weapon.flags.genemon.ffgimportid);
 
           if (weaponItems.length > 0) {
             for (let i = 0; i < adversary.items.length; i += 1) {
-              if (adversary.items[i].type === "weapon" && adversary.items[i].flags.starwarsffg.ffgimportid === weapon.flags.starwarsffg.ffgimportid) {
+              if (adversary.items[i].type === "weapon" && adversary.items[i].flags.genemon.ffgimportid === weapon.flags.genemon.ffgimportid) {
                 adversary.items[i] = mergeObject(weapon, adversary.items[i]);
               }
             }
@@ -1050,10 +1050,10 @@ export default class ImportHelpers {
           }
           const talent = JSON.parse(JSON.stringify(compTalent));
           delete talent._id;
-          const talentItems = adversary.items.filter((s) => s.flags.starwarsffg.ffgimportid === talent.flags.starwarsffg.ffgimportid);
+          const talentItems = adversary.items.filter((s) => s.flags.genemon.ffgimportid === talent.flags.genemon.ffgimportid);
           if (talentItems.length > 0) {
             for (let i = 0; i < adversary.items.length; i += 1) {
-              if (adversary.items[i].type === "talent" && adversary.items[i].flags.starwarsffg.ffgimportid === talent.flags.starwarsffg.ffgimportid) {
+              if (adversary.items[i].type === "talent" && adversary.items[i].flags.genemon.ffgimportid === talent.flags.genemon.ffgimportid) {
                 adversary.items[i] = mergeObject(talent, adversary.items[i]);
               }
             }
@@ -1088,11 +1088,11 @@ export default class ImportHelpers {
           if(compArmor) {
             const armor = JSON.parse(JSON.stringify(compArmor));
             delete armor._id;
-            const armorItems = adversary.items.filter((s) => s.flags.starwarsffg.ffgimportid === armor.flags.starwarsffg.ffgimportid);
+            const armorItems = adversary.items.filter((s) => s.flags.genemon.ffgimportid === armor.flags.genemon.ffgimportid);
 
             if (armorItems.length > 0) {
               for (let i = 0; i < adversary.items.length; i += 1) {
-                if (adversary.items[i].type === "armor" && adversary.items[i].flags.starwarsffg.ffgimportid === armor.flags.starwarsffg.ffgimportid) {
+                if (adversary.items[i].type === "armor" && adversary.items[i].flags.genemon.ffgimportid === armor.flags.genemon.ffgimportid) {
                   adversary.items[i] = mergeObject(armor, adversary.items[i]);
                 }
               }
@@ -1129,7 +1129,7 @@ export default class ImportHelpers {
             const gear = JSON.parse(JSON.stringify(compGear));
             delete gear._id;
 
-            let gearItem = adversary.items.find((s) => s.flags.starwarsffg.ffgimportid === gear.flags.starwarsffg.ffgimportid);
+            let gearItem = adversary.items.find((s) => s.flags.genemon.ffgimportid === gear.flags.genemon.ffgimportid);
 
             let gearCount = 1;
             if (w?.Count) {
@@ -1181,7 +1181,7 @@ export default class ImportHelpers {
           force.data.upgrades[key].islearned = true;
         });
 
-        let forceItem = adversary.items.find((s) => s.flags.starwarsffg.ffgimportid === force.flags.starwarsffg.ffgimportid);
+        let forceItem = adversary.items.find((s) => s.flags.genemon.ffgimportid === force.flags.genemon.ffgimportid);
         if (forceItem) {
           forceItem = mergeObject(force, forceItem);
         } else {
@@ -1202,7 +1202,7 @@ export default class ImportHelpers {
     <h1>Importer Notes</h1>
     <p>This Adversary sheet was imported from OggDude's GMTools with DrMattsuu's NPC importer for SWFVTT, there are currently a number of known issues with this process.&nbsp;</p>
     <ul>
-    <li>This sheet may be missing alot of data if you skipped the Importing Data step of StarWarsFFG's <a href="https://github.com/StarWarsFoundryVTT/StarWarsFFG/wiki/Getting-started#importing-data" target="_blank" rel="noopener">Getting Started Guide</a>. It is strongly recommended that you follow that guide before attempting to import NPCs/PCs into your game</li>
+    <li>This sheet may be missing alot of data if you skipped the Importing Data step of genemon's <a href="https://github.com/StarWarsFoundryVTT/genemon/wiki/Getting-started#importing-data" target="_blank" rel="noopener">Getting Started Guide</a>. It is strongly recommended that you follow that guide before attempting to import NPCs/PCs into your game</li>
     <li>Adversaries do not currently have any of the items created on the Custom Weapons, Custom Armor, or Custom Items tabs of GMTools, this is because those items do not exist in the compendium of imported items.</li>
     <li>In order for Adversary's Soak values to be displayed properly it is strongly recommended that you disable "Enable Soak Auto Calculation" in the Sheet Options.</li>
     <li>Adversaries with Force Powers are automatically granted every upgrade in the power-tree they are granted. This is because there's no good way to map the OggDude's exported Adversary force-power upgrades to the SWFVTT character ones.</li>
@@ -1218,7 +1218,7 @@ export default class ImportHelpers {
   {
     const npcName = adversaryData.Name;
     const npcKey = adversaryData.Key;
-    const exists = game.data.actors.find((actor) => actor.flags.starwarsffg?.ffgimportid == npcKey);
+    const exists = game.data.actors.find((actor) => actor.flags.genemon?.ffgimportid == npcKey);
 
     // copy template character json
     let adversary = JSON.parse(JSON.stringify(ImportHelpers.characterTemplate));
@@ -1226,7 +1226,7 @@ export default class ImportHelpers {
     if(adversaryData.Description)
       adversary.data.biography = adversaryData.Description;
     adversary.flags = {
-      starwarsffg: {
+      genemon: {
         ffgimportid: npcKey
       }
     }
@@ -1315,7 +1315,7 @@ export default class ImportHelpers {
   {
     const npcName = adversaryData.Name;
     const npcKey = adversaryData.Key;
-    const exists = game.data.actors.find((actor) => actor.flags.starwarsffg?.ffgimportid == npcKey);
+    const exists = game.data.actors.find((actor) => actor.flags.genemon?.ffgimportid == npcKey);
 
     // minion sheet data obtained from an export and reformed for importing here.
     // Deep copy our template so we don't have to have a bunch of json sat here
@@ -1325,7 +1325,7 @@ export default class ImportHelpers {
     if(adversaryData.Description)
       adversary.data.biography = adversaryData.Description;
     adversary.flags = {
-      starwarsffg: {
+      genemon: {
         ffgimportid: npcKey
       }
     }
@@ -1468,7 +1468,7 @@ export default class ImportHelpers {
 
       const characterName = characterData.Character.Description.CharName;
 
-      const exists = game.data.actors.find((actor) => actor.flags?.starwarsffg?.ffgimportid === characterData.Character.Key);
+      const exists = game.data.actors.find((actor) => actor.flags?.genemon?.ffgimportid === characterData.Character.Key);
 
       // copy template character json
       let character = JSON.parse(JSON.stringify(ImportHelpers.characterTemplate));
@@ -1478,7 +1478,7 @@ export default class ImportHelpers {
       }
 
       character.flags = {
-        starwarsffg: {
+        genemon: {
           ffgimportid: characterData.Character.Key
         }
       }
@@ -1600,7 +1600,7 @@ export default class ImportHelpers {
           }
 
           // does the character data already include the species
-          let speciesItem = character.items.find((s) => s.flags.starwarsffg.ffgimportid === species.flags.starwarsffg.ffgimportid);
+          let speciesItem = character.items.find((s) => s.flags.genemon.ffgimportid === species.flags.genemon.ffgimportid);
 
           if (speciesItem) {
             species = mergeObject(species, speciesItem);
@@ -1699,7 +1699,7 @@ export default class ImportHelpers {
             });
           }
 
-          let careerItem = character.items.find((s) => s.flags.starwarsffg.ffgimportid === career.flags.starwarsffg.ffgimportid);
+          let careerItem = character.items.find((s) => s.flags.genemon.ffgimportid === career.flags.genemon.ffgimportid);
 
           if (careerItem) {
             careerItem = mergeObject(career, careerItem);
@@ -1816,7 +1816,7 @@ export default class ImportHelpers {
                 specCount += 1;
                 updateDialogSpecialization(specCount, specTotal);
 
-                let specializationItem = character.items.find((s) => s.flags.starwarsffg.ffgimportid === specialization.flags.starwarsffg.ffgimportid);
+                let specializationItem = character.items.find((s) => s.flags.genemon.ffgimportid === specialization.flags.genemon.ffgimportid);
 
                 if (specializationItem) {
                   specializationItem = mergeObject(specialization, specializationItem);
@@ -1861,7 +1861,7 @@ export default class ImportHelpers {
                     updateDialogSpecialization(specCount, specTotal);
                   }
 
-                  let specializationItem = character.items.find((s) => s.flags.starwarsffg.ffgimportid === newspec.flags.starwarsffg.ffgimportid);
+                  let specializationItem = character.items.find((s) => s.flags.genemon.ffgimportid === newspec.flags.genemon.ffgimportid);
 
                   if (specializationItem) {
                     specializationItem = mergeObject(newspec, specializationItem);
@@ -1892,7 +1892,7 @@ export default class ImportHelpers {
             }
           }
 
-          let forceItem = character.items.find((s) => s.flags.starwarsffg.ffgimportid === force.flags.starwarsffg.ffgimportid);
+          let forceItem = character.items.find((s) => s.flags.genemon.ffgimportid === force.flags.genemon.ffgimportid);
 
           if (forceItem) {
             forceItem = mergeObject(force, forceItem);
@@ -1915,11 +1915,11 @@ export default class ImportHelpers {
             const weapon = JSON.parse(JSON.stringify(await this.findCompendiumEntityByImportId("Item", w.ItemKey, undefined, "weapon")));
             delete weapon._id;
 
-            const weaponItems = character.items.filter((s) => s.flags.starwarsffg.ffgimportid === weapon.flags.starwarsffg.ffgimportid);
+            const weaponItems = character.items.filter((s) => s.flags.genemon.ffgimportid === weapon.flags.genemon.ffgimportid);
 
             if (weaponItems.length > 0) {
               for (let i = 0; i < character.items.length; i += 1) {
-                if (character.items[i].type === "weapon" && character.items[i].flags.starwarsffg.ffgimportid === weapon.flags.starwarsffg.ffgimportid) {
+                if (character.items[i].type === "weapon" && character.items[i].flags.genemon.ffgimportid === weapon.flags.genemon.ffgimportid) {
                   character.items[i] = mergeObject(weapon, character.items[i]);
                 }
               }
@@ -1953,11 +1953,11 @@ export default class ImportHelpers {
           try {
             const armor = JSON.parse(JSON.stringify(await this.findCompendiumEntityByImportId("Item", w.ItemKey, undefined, "armour")));
             delete armor._id;
-            const armorItems = character.items.filter((s) => s.flags.starwarsffg.ffgimportid === armor.flags.starwarsffg.ffgimportid);
+            const armorItems = character.items.filter((s) => s.flags.genemon.ffgimportid === armor.flags.genemon.ffgimportid);
 
             if (armorItems.length > 0) {
               for (let i = 0; i < character.items.length; i += 1) {
-                if (character.items[i].type === "armor" && character.items[i].flags.starwarsffg.ffgimportid === armor.flags.starwarsffg.ffgimportid) {
+                if (character.items[i].type === "armor" && character.items[i].flags.genemon.ffgimportid === armor.flags.genemon.ffgimportid) {
                   character.items[i] = mergeObject(armor, character.items[i]);
                 }
               }
@@ -1989,7 +1989,7 @@ export default class ImportHelpers {
             const gear = JSON.parse(JSON.stringify(await this.findCompendiumEntityByImportId("Item", w.ItemKey, undefined, "gear")));
             delete gear._id;
 
-            let gearItem = character.items.find((s) => s.flags.starwarsffg.ffgimportid === gear.flags.starwarsffg.ffgimportid);
+            let gearItem = character.items.find((s) => s.flags.genemon.ffgimportid === gear.flags.genemon.ffgimportid);
 
             let gearCount = 1;
             if (w?.Count) {
@@ -2163,7 +2163,7 @@ export default class ImportHelpers {
       name: obj.Name,
       type,
       flags: {
-        starwarsffg: {
+        genemon: {
           ffgimportid: obj.Key
         }
       },
@@ -2172,7 +2172,7 @@ export default class ImportHelpers {
   }
 
   static async addImportItemToCompendium(type, data, pack, removeFirst) {
-    let entry = await ImportHelpers.findCompendiumEntityByImportId(type, data.flags.starwarsffg.ffgimportid, pack.collection);
+    let entry = await ImportHelpers.findCompendiumEntityByImportId(type, data.flags.genemon.ffgimportid, pack.collection);
     let objClass;
     let dataType;
     switch (type) {
@@ -2216,7 +2216,7 @@ export default class ImportHelpers {
       }
       CONFIG.logger.debug(`New ${type} ${dataType} ${data.name} : ${JSON.stringify(compendiumItem)}`);
       const crt = await pack.importDocument(compendiumItem);
-      CONFIG.temporary[pack.collection][data.flags.starwarsffg.ffgimportid] = duplicate(crt);
+      CONFIG.temporary[pack.collection][data.flags.genemon.ffgimportid] = duplicate(crt);
     } else {
       let upd;
       if (removeFirst) {
@@ -2260,7 +2260,7 @@ export default class ImportHelpers {
           upd.data = mergeObject(upd.data, data.data);
         }
       }
-      CONFIG.temporary[pack.collection][data.flags.starwarsffg.ffgimportid] = upd;
+      CONFIG.temporary[pack.collection][data.flags.genemon.ffgimportid] = upd;
     }
   }
 
@@ -2381,8 +2381,8 @@ export default class ImportHelpers {
         output.attributes[skillModifier.type] = skillModifier.value;
       } else if (dieMod.SkillChar) {
         // this is a skill modifier based on characteristic (ex all Brawn skills);
-        const skillTheme = await game.settings.get("starwarsffg", "skilltheme");
-        const allSkillsLists = await game.settings.get("starwarsffg", "arraySkillList");
+        const skillTheme = await game.settings.get("genemon", "skilltheme");
+        const allSkillsLists = await game.settings.get("genemon", "arraySkillList");
         const skills = allSkillsLists.find((i) => i.id === skillTheme).skills;
         const characteristicSkills = Object.keys(skills).filter((s) => skills[s].characteristic === ImportHelpers.convertOGCharacteristic(dieMod.SkillChar));
 
@@ -2396,8 +2396,8 @@ export default class ImportHelpers {
           }
         });
       } else if (dieMod.SkillType) {
-        const skillTheme = await game.settings.get("starwarsffg", "skilltheme");
-        const allSkillsLists = await game.settings.get("starwarsffg", "arraySkillList");
+        const skillTheme = await game.settings.get("genemon", "skilltheme");
+        const allSkillsLists = await game.settings.get("genemon", "arraySkillList");
         const skills = allSkillsLists.find((i) => i.id === skillTheme).skills;
         const characteristicSkills = Object.keys(skills).filter((s) => skills[s].type.toLowerCase() === dieMod.SkillType.toLowerCase());
 
@@ -2604,7 +2604,7 @@ export default class ImportHelpers {
   }
 
   static async getTemplate(type) {
-    const response = await fetch("systems/starwarsffg/template.json");
+    const response = await fetch("systems/genemon/template.json");
     const template = await response.json();
 
     const obj = Object.values(template).find((i) => i.types.includes(type));

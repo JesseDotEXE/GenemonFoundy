@@ -3,9 +3,9 @@ export default class UISettings extends FormApplication {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       id: "data-importer",
-      classes: ["starwarsffg", "data-import"],
+      classes: ["genemon", "data-import"],
       title: `${game.i18n.localize("SWFFG.UISettingsLabel")}`,
-      template: "systems/starwarsffg/templates/dialogs/ffg-ui-settings.html",
+      template: "systems/genemon/templates/dialogs/ffg-ui-settings.html",
     });
   }
 

@@ -63,7 +63,7 @@ export default class ActorHelpers {
 
             let y = parseInt(formData.data.attributes[key].value, 10) + x;
             if (key === "Soak") {
-              const autoSoakCalculation = (typeof this.actor.flags?.starwarsffg?.config?.enableAutoSoakCalculation === "undefined" && game.settings.get("starwarsffg", "enableSoakCalc")) || this.actor.flags.starwarsffg?.config.enableAutoSoakCalculation;
+              const autoSoakCalculation = (typeof this.actor.flags?.genemon?.config?.enableAutoSoakCalculation === "undefined" && game.settings.get("genemon", "enableSoakCalc")) || this.actor.flags.genemon?.config.enableAutoSoakCalculation;
 
               if (autoSoakCalculation) {
                 y = 0;
@@ -168,7 +168,7 @@ export default class ActorHelpers {
     formData.data.attributes = attributes;
 
     // Update the Actor
-    setProperty(formData, `flags.starwarsffg.loaded`, false);
+    setProperty(formData, `flags.genemon.loaded`, false);
     return this.object.update(formData);
   }
 }

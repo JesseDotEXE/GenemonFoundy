@@ -8,8 +8,8 @@ export class ActorSheetFFGV2 extends ActorSheetFFG {
   /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      classes: ["starwarsffg", "sheet", "actor", "v2"],
-      template: "systems/starwarsffg/templates/actors/ffg-character-sheet.html",
+      classes: ["genemon", "sheet", "actor", "v2"],
+      template: "systems/genemon/templates/actors/ffg-character-sheet.html",
       width: 710,
       height: 650,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "characteristics" }],

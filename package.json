@@ -1,7 +1,7 @@
 {
-  "name": "starwarsffg",
+  "name": "genemon",
   "version": "1.0.0",
-  "description": "( PLEASE NOTE: This is a custom fork based on [Jaxxa's implementation](https://github.com/jaxxa/StarWarsFFG/tree/master). )",
+  "description": "( PLEASE NOTE: This is a custom fork based on [Jaxxa's implementation](https://github.com/jaxxa/genemon/tree/master). )",
   "main": "index.js",
   "scripts": {
     "compile": "gulp css",

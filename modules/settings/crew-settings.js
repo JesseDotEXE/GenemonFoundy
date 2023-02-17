@@ -3,11 +3,11 @@ export default class CrewSettings extends FormApplication {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       id: "data-importer",
-      classes: ["starwarsffg", "data-import"],
+      classes: ["genemon", "data-import"],
       title: `${game.i18n.localize("SWFFG.UISettingsLabel")}`,
       height: 265,
       resizable: true,
-      template: "systems/starwarsffg/templates/dialogs/crew-settings.html"
+      template: "systems/genemon/templates/dialogs/crew-settings.html"
     });
   }
 
@@ -65,8 +65,8 @@ export default class CrewSettings extends FormApplication {
    */
   _onResetDefaults(event) {
     event.preventDefault();
-    const defaults = game.settings.settings.get("starwarsffg.arrayCrewRoles").default;
-    game.settings.set("starwarsffg", "arrayCrewRoles", defaults);
+    const defaults = game.settings.settings.get("genemon.arrayCrewRoles").default;
+    game.settings.set("genemon", "arrayCrewRoles", defaults);
     this.close();
   }
 
@@ -75,7 +75,7 @@ export default class CrewSettings extends FormApplication {
 
   /** @override */
   async _updateObject(event, formData) {
-    const existing_settings = game.settings.get("starwarsffg", "arrayCrewRoles");
+    const existing_settings = game.settings.get("genemon", "arrayCrewRoles");
     let new_settings = [];
     // convert the arrays into the format expected
     for (let i = 0; i < formData['role_name'].length; i++) {
@@ -88,7 +88,7 @@ export default class CrewSettings extends FormApplication {
     }
     // update the settings if they don't match the old ones
     if (existing_settings !== new_settings) {
-      game.settings.set("starwarsffg", "arrayCrewRoles", new_settings);
+      game.settings.set("genemon", "arrayCrewRoles", new_settings);
     }
   }
 }

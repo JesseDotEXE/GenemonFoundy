@@ -36,7 +36,7 @@ export async function register_crew(...args) {
     });
 
     CONFIG.logger.debug("Looking up existing crew information");
-    const existing_data = vehicle_actor.getFlag('starwarsffg', 'crew');
+    const existing_data = vehicle_actor.getFlag('genemon', 'crew');
     if (existing_data !== undefined && existing_data !== null) {
         // we already have crew data defined, check if this actor is already in the data
 
@@ -51,7 +51,7 @@ export async function register_crew(...args) {
     }
     CONFIG.logger.debug(`Registering crew on vehicle ${vehicle_actor._id} - data: ${JSON.stringify(flag_data)}`)
     // set the flag data
-    await vehicle_actor.setFlag('starwarsffg', 'crew', flag_data);
+    await vehicle_actor.setFlag('genemon', 'crew', flag_data);
     return args;
 }
 
@@ -63,7 +63,7 @@ export async function register_crew(...args) {
  */
 export function deregister_crew(vehicle_actor, crew_member, crew_role) {
     CONFIG.logger.debug("Got deregister crew request");
-    const flag_data = vehicle_actor.getFlag('starwarsffg', 'crew');
+    const flag_data = vehicle_actor.getFlag('genemon', 'crew');
     let new_flag_data = [];
 
     for (let i = 0; i < flag_data.length; i++) {
@@ -79,9 +79,9 @@ export function deregister_crew(vehicle_actor, crew_member, crew_role) {
     CONFIG.logger.debug("Final updated flag data: ", new_flag_data);
     if (new_flag_data.length === 0) {
       // the last crew member was removed, delete the data
-      vehicle_actor.unsetFlag('starwarsffg', 'crew');
+      vehicle_actor.unsetFlag('genemon', 'crew');
     } else {
-      vehicle_actor.setFlag('starwarsffg', 'crew', new_flag_data);
+      vehicle_actor.setFlag('genemon', 'crew', new_flag_data);
     }
 }
 
@@ -96,7 +96,7 @@ export async function change_role(vehicle_actor, crew_member, old_crew_role, new
     CONFIG.logger.debug(
       `Got role change request: vehicle ID: ${vehicle_actor} | crew ID: ${crew_member} | old role: ${old_crew_role} | new role: ${new_crew_role}`
     );
-    const flag_data = vehicle_actor.getFlag('starwarsffg', 'crew');
+    const flag_data = vehicle_actor.getFlag('genemon', 'crew');
     let new_flag_data = [];
 
     if (flag_data.filter(i => i.actor_id === crew_member && i.role === new_crew_role).length > 0) {
@@ -116,5 +116,5 @@ export async function change_role(vehicle_actor, crew_member, old_crew_role, new
 
     CONFIG.logger.debug("Final updated flag data: ", new_flag_data);
     // set the updated flag data
-    vehicle_actor.setFlag('starwarsffg', 'crew', new_flag_data);
+    vehicle_actor.setFlag('genemon', 'crew', new_flag_data);
 }

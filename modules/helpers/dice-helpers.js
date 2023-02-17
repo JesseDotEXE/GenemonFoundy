@@ -13,7 +13,7 @@ export default class DiceHelpers {
     }
 
     let skills;
-    const theme = await game.settings.get("starwarsffg", "skilltheme");
+    const theme = await game.settings.get("genemon", "skilltheme");
     try {
       skills = JSON.parse(JSON.stringify(CONFIG.FFG.alternateskilllists.find((list) => list.id === theme).skills));
     } catch (err) {
@@ -158,7 +158,7 @@ export default class DiceHelpers {
 
     const item = actor.items.get(itemId);
     const itemData = item.system;
-    await item.setFlag("starwarsffg", "uuid", item.uuid);
+    await item.setFlag("genemon", "uuid", item.uuid);
 
     const status = this.getWeaponStatus(item);
 

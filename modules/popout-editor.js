@@ -7,9 +7,9 @@ export default class PopoutEditor extends FormApplication {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       id: "popout-editor",
-      classes: ["starwarsffg", "sheet"],
+      classes: ["genemon", "sheet"],
       title: "Pop-out Editor",
-      template: "systems/starwarsffg/templates/popout-editor.html",
+      template: "systems/genemon/templates/popout-editor.html",
       width: 320,
       height: 320,
     });
@@ -65,7 +65,7 @@ export default class PopoutEditor extends FormApplication {
       }
     }
 
-    const dicetheme = game.settings.get("starwarsffg", "dicetheme");
+    const dicetheme = game.settings.get("genemon", "dicetheme");
 
     const replaceValues = [
       {

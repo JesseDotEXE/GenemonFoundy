@@ -1,16 +1,22 @@
 {
-  "id": "starwarsffg",
-  "title": "Star Wars FFG",
-  "description": "A system for playing Star Wars FFG games.",
-  "version": "1.80-alpha8",
+  "id": "genemon",
+  "title": "Genemon",
+  "description": "Genesys Pokemon!",
+  "version": "0.0.1",
   "compatibility": {
     "minimum": 10,
     "verified": 10
   },
   "templateVersion": 1,
-  "authors": [{"name": "Jesse Villagomez"}, {"name": "Esrin"}, {"name": "CStadther"}, {"name": "Wrycu"}, {"name": "Jaxxa"}],
+  "authors": [
+    {"name": "Jesus Villagomez"},
+    {"name": "Esrin"},
+    {"name": "CStadther"},
+    {"name": "Wrycu"},
+    {"name": "Jaxxa"}
+  ],
   "esmodules": ["modules/dice-pool-ffg.js", "modules/swffg-main.js"],
-  "styles": ["styles/starwarsffg.css", "lib/select2/select2.min.css", "lib/pure/grids-min.css"],
+  "styles": ["styles/genemon.css", "lib/select2/select2.min.css", "lib/pure/grids-min.css"],
   "scripts": ["lib/select2/select2.min.js", "lib/jszip/jszip.min.js", "lib/jxon/jxon.min.js"],
   "socket": true,
   "packs": [],
@@ -45,8 +51,8 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "wounds",
   "secondaryTokenAttribute": "strain",
-  "url": "https://github.com/StarWarsFoundryVTT/StarWarsFFG",
-  "manifest": "https://github.com/StarWarsFoundryVTT/StarWarsFFG/releases/download/v1.8-alpha8/system.json",
-  "download": "https://github.com/StarWarsFoundryVTT/StarWarsFFG/releases/download/v1.8-alpha8/starwarsffg_1.8.alpha8.zip",
+  "url": "https://github.com/StarWarsFoundryVTT/genemon",
+  "manifest": "https://github.com/StarWarsFoundryVTT/genemon/releases/download/v1.8-alpha8/system.json",
+  "download": "https://github.com/StarWarsFoundryVTT/genemon/releases/download/v1.8-alpha8/genemon_1.8.alpha8.zip",
   "license": "LICENSE.txt"
 }

@@ -41,13 +41,13 @@ export default class ItemHelpers {
     let updated_id = formData._id;
     delete formData._id;
 
-    setProperty(formData, `flags.starwarsffg.loaded`, false);
+    setProperty(formData, `flags.genemon.loaded`, false);
 
     // Update the Item
     try {
       // v10 items are no longer created in the global scope if they exist only on an actor (or another item)
-      if (this.object.flags.starwarsffg.ffgParent.starwarsffg.ffgTempId) {
-        let parent_object = await game.items.get(this.object.flags.starwarsffg.ffgParent.starwarsffg.ffgTempId);
+      if (this.object.flags.genemon.ffgParent.genemon.ffgTempId) {
+        let parent_object = await game.items.get(this.object.flags.genemon.ffgParent.genemon.ffgTempId);
 
         // search for the relevant attachment
         let updated_items = [];
@@ -104,11 +104,11 @@ export default class ItemHelpers {
               const ids = parent.id.split(".OwnedItem.");
               const actor = await fromUuid(ids[0]);
               const item = await actor.items.get(ids[1]);
-              setProperty(updateData, `flags.starwarsffg.loaded`, false);
+              setProperty(updateData, `flags.genemon.loaded`, false);
               await item.update(updateData);
               await item.sheet.render(true);
             } else {
-              setProperty(updateData, `flags.starwarsffg.loaded`, false);
+              setProperty(updateData, `flags.genemon.loaded`, false);
               await spec.update(updateData);
               await spec.sheet.render(true);
             }
